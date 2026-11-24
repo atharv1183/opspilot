@@ -7,7 +7,7 @@ from fastapi.responses import JSONResponse
 from sqlalchemy import text
 
 from opspilot import __version__
-from opspilot.api.routers import inventory, invoices, items, purchasing, sales
+from opspilot.api.routers import agent, inventory, invoices, items, purchasing, sales
 from opspilot.config import get_settings
 from opspilot.db.session import get_engine
 from opspilot.erp import ERPError
@@ -42,5 +42,5 @@ def health() -> dict:
             "llm_provider": get_settings().resolved_llm_provider()}  # fmt: skip
 
 
-for r in (items, inventory, purchasing, sales, invoices):
+for r in (items, inventory, purchasing, sales, invoices, agent):
     app.include_router(r.router)
