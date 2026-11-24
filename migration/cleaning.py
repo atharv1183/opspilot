@@ -57,11 +57,15 @@ _EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[A-Za-z]{2,}$")
 
 def blank(value: str | None) -> bool:
     """True for None / empty / whitespace-only / common null tokens."""
+    if value is not None and not isinstance(value, str):
+        return False
     return value is None or value.strip().upper() in {"", "N/A", "NA", "NULL", "NONE", "-"}
 
 
 def parse_date(value: str | None) -> date:
     """Parse any of the legacy date formats. Raises ValueError if unparseable."""
+    if isinstance(value, date):
+        return value
     if blank(value):
         raise ValueError("missing date")
     v = value.strip()  # type: ignore[union-attr]
@@ -83,6 +87,8 @@ def parse_optional_date(value: str | None) -> date | None:
 
 def parse_decimal(value: str | None, *, field: str = "value") -> Decimal:
     """Parse '$1,234.50', ' 12 ', '12.0' -> Decimal. Raises ValueError if missing/invalid."""
+    if isinstance(value, Decimal | int | float):
+        return Decimal(str(value))
     if blank(value):
         raise ValueError(f"missing {field}")
     v = value.strip().replace("$", "").replace(",", "")  # type: ignore[union-attr]
