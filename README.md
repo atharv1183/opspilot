@@ -154,13 +154,137 @@ docker compose exec api python -m opspilot.chat
 
 ## Example conversations
 
-<!-- EXAMPLES -->
+Outputs below are copied verbatim from the API of a fresh `docker compose up` running the
+**offline planner** (no API key). With `OPENAI_API_KEY` set, the same tools and approval flow run,
+and the LLM writes the final wording.
+
+**1. Invoice exception (3-way match)**
+
+```bash
+curl -s localhost:8000/agent/chat -H 'Content-Type: application/json'   -d '{"message": "Why is invoice INV-1042 on hold?"}'
+```
+```text
+tools: three_way_match(invoice_id=INV-1042)
+- INV-1042 from Miller, Tran and Greene for $81,224.26 against PO-10016: invoice status ON_HOLD, 3-way match PRICE_VARIANCE. Mismatch: line 1 (ITM-1598): billed unit price $300.83 vs PO price $282.47 (+6.5%, tolerance 2%). Recommended action: Hold payment; ask the buyer to confirm the price change or request a credit note from the supplier for the difference.
+```
+
+**2. Replenishment with human approval before any PO is created**
+
+```bash
+curl -s localhost:8000/agent/chat -H 'Content-Type: application/json'   -d '{"message": "Which items are below reorder level in Warehouse B, and draft POs for them from the cheapest approved supplier"}'
+```
+The graph pauses at the `human_approval` node (LangGraph `interrupt()`) and returns:
+```json
+{
+  "thread_id": "2ad1a2c76881",
+  "answer": null,
+  "pending_approval": {
+    "type": "approval_required",
+    "actions": [
+      {
+        "tool": "create_purchase_order",
+        "args": {
+          "requisition_id": "PR-5001",
+          "supplier_id": "SUP-0123"
+        },
+        "description": "Create PO from PR-5001: 60 x ITM-1088 Hydraulic Oil ISO32 from SUP-0123 Phillips, Wright and Jones (APPROVED) at $132.51 = $7,950.60 (auto-approved, within the $10,000 limit)"
+      },
+      {
+        "tool": "create_purchase_order",
+        "args": {
+          "requisition_id": "PR-5002",
+          "supplier_id": "SUP-0121"
+        },
+        "description": "Create PO from PR-5002: 300 x ITM-1578 Ball Bearing 6205 HD from SUP-0121 Matthews Ltd (APPROVED) at $113.62 = $34,086.00 (above $10,000: will wait for manager approval)"
+      },
+      {
+        "tool": "create_purchase_order",
+        "args": {
+          "requisition_id": "PR-5003",
+          "supplier_id": "SUP-0256"
+        },
+        "description": "Create PO from PR-5003: 80 x ITM-1277 Thrust Bearing 6205 Mk2 from SUP-0256 Freeman Ltd (APPROVED) at $170.76 = $13,660.80 (above $10,000: will wait for manager approval)"
+      }
+    ]
+  }
+}
+```
+Approve, or send `"approve": false` to reject:
+```bash
+curl -s localhost:8000/agent/chat -H 'Content-Type: application/json'   -d '{"thread_id": "2ad1a2c76881", "approve": true}'
+```
+```text
+- 4 item(s) at or below reorder level in WH-B: ITM-1088 Hydraulic Oil ISO32 in WH-B (9 on hand vs reorder level 20, suggested reorder qty 60); ITM-1578 Ball Bearing 6205 HD in WH-B (61 on hand vs reorder level 100, suggested reorder qty 300); ITM-1598 Copper Cable 4mm Mk2 in WH-B (7 on hand vs reorder level 10, suggested reorder qty 40); ITM-1277 Thrust Bearing 6205 Mk2 in WH-B (15 on hand vs reorder level 20, suggested reorder qty 80).
+- Created requisition PR-5001 for 60 x ITM-1088 Hydraulic Oil ISO32 to WH-B (needed by 2026-11-29).
+- Quotes for 60 x ITM-1088: SUP-0123 Phillips, Wright and Jones (APPROVED) $132.51/unit, 4d lead time; SUP-0203 Cole-Lucero (APPROVED) $136.92/unit, 7d lead time; SUP-0236 Kelly-Nunez (APPROVED) $142.81/unit, 5d lead time; SUP-0204 Owens-Pineda (APPROVED) $157.54/unit, 8d lead time. Cheapest approved supplier: SUP-0123 Phillips, Wright and Jones at $132.51/unit (total $7,950.60).
+- Created requisition PR-5002 for 300 x ITM-1578 Ball Bearing 6205 HD to WH-B (needed by 2026-12-08).
+- Quotes for 300 x ITM-1578: SUP-0040 Kerr-Evans (BLOCKED) $112.47/unit, 16d lead time; SUP-0121 Matthews Ltd (APPROVED) $113.62/unit, 16d lead time; SUP-0091 Travis, Reed and Ross (APPROVED) $121.65/unit, 14d lead time; SUP-0003 Blair PLC (APPROVED) $128.54/unit, 15d lead time. Cheapest approved supplier: SUP-0121 Matthews Ltd at $113.62/unit (total $34,086.00). Not eligible (not APPROVED): SUP-0040.
+- Created requisition PR-5003 for 80 x ITM-1277 Thrust Bearing 6205 Mk2 to WH-B (needed by 2026-11-27).
+- Quotes for 80 x ITM-1277: SUP-0256 Freeman Ltd (APPROVED) $170.76/unit, 6d lead time; SUP-0022 Rasmussen LLC (APPROVED) $172.54/unit, 6d lead time; SUP-0170 Wood-Griffin (APPROVED) $181.44/unit, 4d lead time; SUP-0158 Glass Group (APPROVED) $186.77/unit, 6d lead time. Cheapest approved supplier: SUP-0256 Freeman Ltd at $170.76/unit (total $13,660.80).
+- Created PO-10381 for PR-5001 with Phillips, Wright and Jones (SUP-0123): 60 @ $132.51 = $7,950.60, status APPROVED, expected 2026-11-28.
+- Created PO-10382 for PR-5002 with Matthews Ltd (SUP-0121): 300 @ $113.62 = $34,086.00, status PENDING_APPROVAL, expected 2026-12-10.
+- Created PO-10383 for PR-5003 with Freeman Ltd (SUP-0256): 80 @ $170.76 = $13,660.80, status PENDING_APPROVAL, expected 2026-11-30.
+- Skipped ITM-1598: open purchase orders already cover the shortfall (replenishment policy SOP-INV-001).
+```
+Things to notice:
+* **SUP-0040 was cheaper but BLOCKED**, so it was excluded.
+* **ITM-1598 was skipped** because open POs already cover its shortfall.
+* The **,950.60 PO auto-approved** while the two above 0k wait for a manager, as SOP-FIN-001
+  requires.
+* A follow-up in the same thread, *"What about warehouse D?"*, reuses the conversation
+  memory. It calls `find_low_stock_items(warehouse=WH-D)` and pauses again for approval.
+
+**3. Policy question answered with RAG and cited**
+
+```text
+you> Who needs to approve a purchase order of $30,000?
+tools: search_sop_docs(...)
+- Relevant policy text: [approval-limits.md] ... | $10,000.01 – $50,000 | Procurement Manager | PENDING_APPROVAL | ...
+Sources: [approval-limits.md]
+```
+_(trimmed; the offline planner quotes the top passages, while an LLM summarises them.)_
+
+**4. Legacy SOAP supplier portal through zeep**
+
+```text
+you> Get quotes for 500 units of ITM-1450. Is the cheapest supplier approved?
+tools: get_supplier_quote(item=ITM-1450, qty=500)
+- Quotes for 500 x ITM-1450: SUP-0004 Delacruz Group (PENDING) $31.28/unit, 3d lead time; SUP-0120 Smith, Jackson and Porter (APPROVED) $33.01/unit, 2d lead time; SUP-0204 Owens-Pineda (APPROVED) $35.10/unit, 2d lead time; SUP-0238 Jackson Inc (APPROVED) $38.92/unit, 5d lead time. Cheapest approved supplier: SUP-0120 Smith, Jackson and Porter at $33.01/unit (total $16,505.00). Not eligible (not APPROVED): SUP-0004.
+```
 
 ---
 
 ## Evaluation results
 
-<!-- EVAL -->
+Real numbers from `eval/run_eval.py` on all **50 queries**
+([`eval/queries.yaml`](eval/queries.yaml)), copied from [`eval/results.md`](eval/results.md).
+Raw per-query outputs are saved to `eval/runs/`.
+
+| Metric | Offline rule planner | Local LLM `qwen2.5:1.5b` (Ollama) |
+|---|---:|---:|
+| Tool-selection accuracy (expected ⊆ called) | **100.0%** | **52.0%** |
+| Tool-selection exact match | 98.0% | 50.0% |
+| Answer correctness (all key facts present) | **96.0%** | **38.0%** |
+| Key-fact recall | 97.8% | 48.3% |
+| Retrieval hit@3 (12 RAG queries) | **91.7%** | **91.7%** |
+| PO attempts paused for human approval | 100.0% (n=3) | 100.0% (n=1) |
+| Mean / p95 latency per query | 0.09s / 0.30s | 2.65s / 5.21s |
+| Errors | 0 | 0 |
+
+How to read these numbers honestly:
+* **No OpenAI or Gemini key was available when these runs were made**, so there are no
+  `gpt-4o-mini` or Gemini numbers yet. Run `OPENAI_API_KEY=... python eval/run_eval.py --judge`
+  (or `make eval`) to add a section to `eval/results.md` with LLM-as-judge scores.
+* The **offline rule planner was written alongside this query set**. Treat its 100% tool
+  selection as a regression baseline for the tools, graph and data, not as evidence that it
+  generalises. Its two answer misses are SOP questions where the quoted passage lacks the fact.
+* The **1.5B local model** shows why model choice matters. It often answers from memory without
+  calling a tool, especially for sales orders and policies, and sometimes prints a tool call as
+  plain JSON text. When it did attempt a PO, the approval gate held. The business rules also
+  rejected its wrong supplier choice ("SUP-0123 does not offer ITM-1277").
+* **Retrieval hit@3 is 91.7% (11/12)** for both runs, because retrieval does not depend on the
+  planner. The miss is *"INV-1042 is on hold. What does our policy say?"*, where the word "hold"
+  pulls the credit-hold policy above the 3-way-match SOP.
 
 ---
 
