@@ -1,0 +1,606 @@
+ITEM_NO,DESCRIPTION,CATEGORY,UOM,STD_COST,LIST_PRICE,LEAD_TIME,PREF_SUPPLIER
+P-1001,Cutting Fluid 5L,Lubricants,liter,118.67,$213.15,5,V2026
+P1002,Circuit Breaker 2.5mm,Electrical,BOX,$147.47,$211.54,30,V1179
+P-1003,Cable Tie 2.5mm,Electrical,BOX,195.25,,14,V1191
+p-1004,Anchor Bolt M6,Fasteners,carton,110.96,191.92,7,V1102
+P-1005,Gear Oil 5L,Lubricants,PCS,366.32,514.84,7,V1039
+P-1006,Ball Bearing 22210,Bearings,unit,15.84,25.99,3,V1102
+P-1007,Paint 2mm,Raw Materials,meter,287.12,$442.67,7 days,V2027
+P1008,Pillow Block 22210,Bearings,each,90.28,142.54,30 days,V1089
+P-1009,Cable Tie 32A,Electrical,m,436.23,$604.64,21,V1165
+p-1010,Safety Gloves size XL,Safety,pcs,313.76,$525.71,30,V1172
+P-1011,Aluminium Rod 1mm,Raw Materials,LTR,131.20,179.52,21 days,V1269
+P-1012,Safety Goggles size XL,Safety,BOX,185.29,$274.94,10,V2009
+ P-1013 ,Gear Oil EP2,Lubricants,litre,286.47,406.70,21,V1069
+P-1014,Ball Bearing UCP205,Bearings,EA,111.49,176.46,3,V2001
+P-1015,Steel Sheet 10mm,Raw Materials,ltr,410.54,527.51,3 days,V1132
+P1016,Roller Bearing UCP205,Bearings,each,73.61,103.76,7,V2011
+P1017,Aluminium Rod RAL7035,Raw Materials,KILO,$330.11,419.19,3 days,V1183
+ P-1018 ,LED Panel 32A,Electrical,EA,356.19,475.98,10,V1215
+p-1019,Ball Bearing 6306,Bearings,pcs,135.99,219.00,7,V1105
+P-1020,Copper Cable 2.5mm,Electrical,Box,$227.23,$379.32,21 days,V1261
+ P-1021 ,Hydraulic Hose 350bar,Hydraulics,unit,356.76,609.10,10 days,V1151
+p-1022,Flat Washer M10,Fasteners,ea,206.72,288.45,30 days,V1154
+p-1023,Circuit Breaker 32A,Electrical,meter,252.62,355.29,7 days,V1174
+P-1024,Copper Wire RAL7035,Raw Materials,m,321.67,441.73,3,V1092
+P-1025,Grease Cartridge 5L,Lubricants,EA,253.59,363.35,5,V1071
+P-1026,Thrust Bearing UCP205,Bearings,EA,47.99,70.63,30,V1195
+P-1027,Ball Bearing 22210 Std,Bearings,unit,76.49,$130.71,3,V1194
+ P-1028 ,Steel Sheet 10mm Mk2,Raw Materials,LTR,$94.47,,30,V1221
+p-1029,Pillow Block 22210 Mk2,Bearings,unit,$89.01,156.36,21,V1137
+p-1030,Hydraulic Hose 1/2in,Hydraulics,EA,234.16,$314.10,30 days,V2004
+P-1031,Wood Screw M12,Fasteners,bx,$77.16,102.39,21,V1112
+p-1032,Junction Box 16A,Electrical,Box,324.09,453.44,14,V1136
+ P-1033 ,Pressure Valve 3/4in,Hydraulics,each,,$398.61,14 days,V1099
+P-1034,Cutting Fluid ISO46,Lubricants,litre,421.32,564.71,30 days,V1149
+ P-1035 ,Pressure Valve 200bar,Hydraulics,PCS,30.54,43.41,7 days,V1042
+P-1036,Grease Cartridge ISO32,Lubricants,Each,,43.95,5 days,V1193
+p-1037,Pillow Block 6204,Bearings,??,167.31,$235.29,21 days,V1118
+P1038,Ear Plugs class 2,Safety,ea,420.46,543.49,7 days,V1088
+P-1039,Corrugated Box large,Packaging,EA,$253.82,428.52,21,V1269
+p-1040,Bubble Roll 48mm,Packaging,pcs,94.50,,7,V1211
+P-1041,Pressure Valve 1/2in,Hydraulics,EA,214.17,305.80,3 days,V1157
+P-1042,Resin Pellets 10mm,Raw Materials,KG,136.43,188.60,21,V1139
+P1043,Grease Cartridge EP2,Lubricants,PCS,377.46,582.00,7,V2021
+p-1044,Corrugated Box 48mm,Packaging,bx,$252.39,411.98,10 days,V1191
+P1045,Copper Wire 2mm,Raw Materials,metre,11.77,20.25,14 days,V1087
+P-1046,Thrust Bearing 6306,Bearings,ea,35.50,48.20,14 days,V1003
+ P-1047 ,Pallet Wrap small,Packaging,carton,410.00,625.88,3 days,V1016
+P-1048,Packing Tape 48mm,Packaging,m,20.15,$32.99,10 days,V1196
+P1049,Anchor Bolt M12,Fasteners,Box,448.76,681.96,30 days,V1219
+P-1050,Copper Cable 16A,Electrical,bx,13.37,17.84,7 days,V2005
+P1051,Junction Box 2.5mm,Electrical,carton,25.60,42.01,14,V1188
+P-1052,Corrugated Box 500mm,Packaging,Box,331.96,567.82,14,V2006
+P-1053,Ear Plugs size M,Safety,lot,423.27,626.02,3,V1266
+P-1054,Hose Fitting 1/4in,Hydraulics,ea,77.99,109.31,7,V1145
+p-1055,Hydraulic Hose 3/4in,Hydraulics,M,123.48,162.34,30,V1237
+P-1056,LED Panel 32A Pro,Electrical,pcs,52.67,71.12,5 days,V1204
+P-1057,Lock Nut M6,Fasteners,BOX,$98.20,$147.61,7 days,V1232
+P1058,Roller Bearing 6306,Bearings,EA,13.39,18.05,7 days,V1147
+p-1059,Roller Bearing 6306 HD,Bearings,PCS,35.17,$48.98,30 days,V1172
+P1060,Ear Plugs size XL,Safety,carton,,268.30,7 days,V1200
+ P-1061 ,Aluminium Rod RAL7035 XL,Raw Materials,L,95.11,$141.58,10,V1238
+ P-1062 ,Stretch Film 500mm,Packaging,CTN,348.12,476.94,10,V1048
+P-1063,Gear Pump 1/2in,Hydraulics,metre,210.47,306.18,21,V1016
+P-1064,Safety Gloves size XL Plus,Safety,unit,405.50,600.86,14 days,V1043
+P1065,Hose Fitting 3/4in,Hydraulics,each,73.57,122.39,30 days,V1163
+P-1066,Resin Pellets grade A,Raw Materials,meter,$375.41,618.62,14 days,V1143
+P-1067,Stretch Film medium,Packaging,MTR,343.52,$449.78,21,V1198
+P-1068,Paint 1mm,Raw Materials,Kilogram,74.15,130.30,7,V2019
+p-1069,Pressure Valve 3/4in Plus,Hydraulics,pc,431.98,613.45,7 days,V1164
+P-1070,Aluminium Rod grade A,Raw Materials,kgs,0.78,1.06,7 days,V1032
+P1071,Pressure Valve 1/2in Eco,Hydraulics,pc,40.94,54.65,14 days,V1067
+P-1072,Safety Gloves class 2,Safety,Box,247.60,$404.66,30,V9999
+P-1073,Ball Bearing 22210 HD,Bearings,pcs,$60.03,88.24,14 days,V2027
+P1074,Paint grade A,Raw Materials,m,240.54,365.28,3,V1209
+P-1075,Pressure Valve 3/4in Std,Hydraulics,Each,153.20,242.95,21,V2021
+P1076,Roller Bearing 22210,Bearings,EA,37.08,52.51,5 days,V1225
+P-1077,Gear Pump 1/2in Std,Hydraulics,MTR,140.27,178.02,21,V1142
+P-1078,Junction Box 2.5mm Std,Electrical,PCS,$308.86,$497.49,21,V1008
+p-1079,Hose Fitting 1/2in,Hydraulics,MTR,258.78,421.16,3,V1229
+ P-1080 ,Resin Pellets 1mm,Raw Materials,M,136.61,226.52,5,V1162
+p-1081,Hi-Vis Vest size XL,Safety,bx,379.94,,7 days,V2018
+p-1082,Steel Sheet 2mm,Raw Materials,LTR,3.53,5.56,7,V1211
+P-1083,Cutting Fluid ISO32,Lubricants,litre,209.36,275.70,30,V1021
+p-1084,Safety Goggles class 2,Safety,BOX,152.12,254.31,3,V1075
+p-1085,Pallet Wrap 48mm,Packaging,Box,$8.28,11.71,3,V1131
+ P-1086 ,Rivet M12,Fasteners,unit,112.18,$173.23,7,V1216
+p-1087,Cutting Fluid EP2,Lubricants,EA,155.69,253.61,7 days,V2029
+ P-1088 ,Hydraulic Oil ISO32,Lubricants,LTR,$147.23,195.92,5 days,V1244
+P1089,Cable Tie 16A,Electrical,ea,190.37,257.22,10 days,V1261
+ P-1090 ,Junction Box 2.5mm Plus,Electrical,meter,86.56,155.57,7,V1021
+P1091,Ear Plugs class 2 HD,Safety,CTN,342.42,479.78,7 days,V1229
+P1092,Rivet M12 HD,Fasteners,Box,305.32,382.50,7 days,V1149
+p-1093,Hose Fitting 3/4in Eco,Hydraulics,M,$269.75,351.60,7,V1123
+P-1094,Ball Bearing UCP205 Std,Bearings,unit,132.16,207.93,14,V1168
+p-1095,Flat Washer M10 Std,Fasteners,BOX,$156.13,208.20,30,V1237
+P-1096,Gear Pump 3/4in,Hydraulics,pc,181.56,290.00,14,V1262
+P-1097,Safety Goggles size XL Plus,Safety,carton,142.18,180.04,7 days,V1194
+ P-1098 ,Resin Pellets 1mm Plus,Raw Materials,L,$438.02,726.78,7 days,V1186
+P-1099,Gear Pump 350bar,Hydraulics,PCS,426.99,556.51,7 days,V1047
+ P-1100 ,Corrugated Box medium,Packaging,metre,345.19,617.34,21 days,V1088
+ P-1101 ,Paint 10mm,Raw Materials,metre,144.00,229.92,14,V1185
+P-1102,Aluminium Rod grade A Eco,Raw Materials,meter,340.67,580.63,30 days,V1075
+p-1103,Copper Wire 1mm,Raw Materials,lot,239.89,400.52,7 days,V1043
+p-1104,Paint grade A Eco,Raw Materials,ltr,184.87,234.04,7 days,V1212
+P-1105,LED Panel 600mm,Electrical,Each,329.57,470.88,7 days,V1214
+P-1106,Hydraulic Oil EP2,Lubricants,each,10.61,16.48,7,V2006
+ P-1107 ,Grease Cartridge ISO46,Lubricants,litre,79.17,113.02,10,V1015
+ P-1108 ,Thrust Bearing 22210,Bearings,each,47.13,84.57,7,V2017
+ P-1109 ,LED Panel 16A,Electrical,pc,392.49,543.47,5 days,V1016
+ P-1110 ,Paint grade A Plus,Raw Materials,m,173.64,308.50,5,V1209
+P-1111,Wood Screw M12 Plus,Fasteners,bundle,326.82,$554.42,3 days,V1242
+P1112,Cutting Fluid ISO32 Pro,Lubricants,pc,66.03,,5,V1133
+P-1113,Copper Wire 2mm HD,Raw Materials,Kilogram,358.08,499.69,14 days,V1029
+P1114,Cutting Fluid ISO46 Plus,Lubricants,each,117.30,191.09,14 days,V1238
+ P-1115 ,Bubble Roll large,Packaging,EA,267.65,$356.35,10 days,V1135
+p-1116,Safety Goggles size XL Mk2,Safety,bx,71.57,$108.17,30,V1066
+P-1117,Pressure Valve 350bar,Hydraulics,M,131.83,183.44,7 days,V1087
+p-1118,Corrugated Box 500mm Pro,Packaging,m,117.04,179.04,21,V1071
+ P-1119 ,Hard Hat EN166,Safety,carton,383.73,590.11,21 days,V2016
+P1120,Seal Kit 200bar,Hydraulics,m,79.25,99.68,5,V1119
+P1121,Roller Bearing 6205,Bearings,pcs,52.98,85.17,14 days,V1195
+P-1122,Anchor Bolt M16,Fasteners,EA,404.20,586.07,3 days,V1043
+p-1123,Ear Plugs size M Std,Safety,unit,249.16,444.44,3,V1181
+P-1124,Roller Bearing 6306 Plus,Bearings,each,134.14,184.52,30 days,V1209
+p-1125,Bubble Roll large Pro,Packaging,MTR,334.50,570.95,5,V2005
+ P-1126 ,Stretch Film medium HD,Packaging,metre,110.08,166.50,5 days,V1273
+P-1127,Flat Washer M6,Fasteners,unit,88.71,132.45,30 days,V1187
+P-1128,Thrust Bearing 6306 XL,Bearings,ea,5.69,$9.81,5,V1158
+P-1129,Thrust Bearing 6204,Bearings,pc,48.31,76.37,30,V1124
+P-1130,Grease Cartridge EP2 Std,Lubricants,liter,390.32,561.14,10,V1047
+p-1131,Gear Pump 1/4in,Hydraulics,MTR,143.92,219.14,7 days,V1155
+P-1132,Stretch Film 48mm,Packaging,M,154.36,238.68,7,V1046
+P1133,Roller Bearing 6306 XL,Bearings,ea,57.75,75.46,10 days,V2007
+P1134,Hose Fitting 1/2in HD,Hydraulics,ea,344.97,592.93,7 days,V1180
+p-1135,Cutting Fluid EP2 HD,Lubricants,pcs,419.81,740.50,10,V1118
+P1136,Safety Goggles size XL Eco,Safety,Box,138.88,231.86,3 days,V1144
+P1137,Wood Screw M10,Fasteners,ea,$290.75,519.35,10 days,V1239
+P-1138,Roller Bearing 6306 Std,Bearings,ea,$150.53,214.81,21 days,V1193
+P1139,Roller Bearing UCP205 XL,Bearings,pc,81.46,106.61,7,V9999
+P1140,Cutting Fluid ISO32 Plus,Lubricants,EA,296.87,411.88,21,V1023
+ P-1141 ,Safety Goggles EN166,Safety,BOX,166.50,$218.29,7 days,V2003
+P-1142,Hi-Vis Vest size L,Safety,BOX,393.33,615.86,5 days,V1123
+p-1143,Bubble Roll 500mm,Packaging,m,367.86,464.25,5,V2023
+P1144,Safety Goggles class 2 Mk2,Safety,unit,398.11,567.98,7,V1125
+P-1145,Pillow Block 6306,Bearings,ea,110.24,146.30,21 days,V1171
+P-1146,Rivet M6,Fasteners,carton,410.88,517.26,21,V2017
+P1147,Ear Plugs class 2 Std,Safety,Each,258.84,428.11,5,V2025
+P-1148,LED Panel 4mm,Electrical,Each,359.45,,30,V1080
+P1149,Junction Box 16A Eco,Electrical,CTN,203.30,$271.14,14,V1219
+P1150,Hi-Vis Vest EN166,Safety,carton,351.59,611.47,21 days,V1003
+ P-1151 ,Steel Sheet 1mm,Raw Materials,M,$101.66,135.49,7 days,V1268
+ P-1152 ,Ear Plugs class 2 Mk2,Safety,BOX,299.56,521.62,7 days,V1063
+p-1153,Pillow Block 6205,Bearings,Each,21.76,36.53,14,V2011
+ P-1154 ,Hard Hat size L,Safety,PCS,91.08,135.10,10,V1088
+P-1155,Safety Gloves size L,Safety,Box,394.99,520.48,21,V1261
+P-1156,Thrust Bearing 6204 Eco,Bearings,EA,81.18,$110.66,21 days,V1051
+P-1157,Circuit Breaker 600mm,Electrical,BOX,411.01,630.52,7 days,V1050
+ P-1158 ,Grease Cartridge EP2 Eco,Lubricants,L,86.27,$145.79,14 days,V1178
+ P-1159 ,Junction Box 2.5mm Pro,Electrical,metre,171.26,251.78,5 days,V1119
+p-1160,Junction Box 16A HD,Electrical,PCS,,723.27,21,V2001
+p-1161,Pallet Wrap small HD,Packaging,EA,381.40,$595.18,7 days,V1059
+P1162,Hydraulic Oil ISO32 XL,Lubricants,unit,$361.15,525.27,21,V1150
+ P-1163 ,Pressure Valve 350bar HD,Hydraulics,pc,333.99,$484.55,5 days,V1015
+P-1164,Gear Oil EP2 Eco,Lubricants,pc,281.54,448.23,3 days,V1124
+P1165,Wood Screw M6,Fasteners,ea,330.83,579.77,3 days,V1267
+P1166,Pressure Valve 1/4in,Hydraulics,ea,7.12,9.26,5,V1168
+p-1167,Cutting Fluid 20L,Lubricants,liter,198.41,282.00,30,V2009
+P1168,Hose Fitting 350bar,Hydraulics,Each,$164.77,$249.26,7 days,V1179
+ P-1169 ,Pressure Valve 1/2in Mk2,Hydraulics,each,37.35,$61.42,10,V2004
+P1170,Pallet Wrap 48mm Mk2,Packaging,meter,266.02,416.97,10 days,V1053
+p-1171,Hi-Vis Vest size XL Mk2,Safety,pcs,65.69,109.14,21 days,V1278
+P-1172,Roller Bearing 6204,Bearings,each,29.16,49.85,7,V1122
+P-1173,Rivet M12 Eco,Fasteners,each,386.01,615.99,21,V1087
+ P-1174 ,Grease Cartridge 20L,Lubricants,PCS,198.16,319.14,14 days,V1077
+P1175,Pallet Wrap 48mm Plus,Packaging,MTR,$247.19,322.11,14 days,V1102
+p-1176,Cable Tie 32A Mk2,Electrical,Box,11.83,15.61,7 days,V2027
+p-1177,Copper Cable 600mm,Electrical,lot,320.83,,10 days,V1190
+P1178,LED Panel 4mm Eco,Electrical,bx,$369.08,$500.91,7 days,V1082
+ P-1179 ,Ear Plugs EN166,Safety,EA,,,14,V1235
+P-1180,Hose Fitting 1/2in Pro,Hydraulics,pc,306.31,524.95,7 days,V1210
+P-1181,Aluminium Rod 10mm,Raw Materials,metre,22.39,31.64,21 days,V2015
+P-1182,Hard Hat size XL,Safety,carton,0.56,0.92,10 days,V1248
+P-1183,Copper Cable 32A,Electrical,M,$63.48,108.06,7,V1067
+P-1184,Resin Pellets RAL7035,Raw Materials,meter,87.34,$112.56,10 days,V1143
+P-1185,LED Panel 4mm HD,Electrical,CTN,199.74,279.94,14 days,V1050
+P-1186,Bubble Roll small,Packaging,metre,$347.34,524.17,30,V1051
+P-1187,Gear Oil ISO32,Lubricants,ea,396.15,685.89,3 days,V1100
+P-1188,Junction Box 32A,Electrical,BOX,263.41,429.43,30,V1090
+p-1189,Copper Cable 600mm XL,Electrical,Each,389.34,672.84,30,V1155
+P-1190,Steel Sheet 1mm Plus,Raw Materials,L,$346.57,572.83,10 days,V1124
+P-1191,Copper Wire 10mm,Raw Materials,KG,37.76,62.01,30,V1173
+P1192,Thrust Bearing 6306 Pro,Bearings,PCS,179.53,279.77,21,V1228
+P1193,Steel Sheet RAL7035,Raw Materials,LTR,48.87,86.73,5 days,V1267
+p-1194,Pillow Block UCP205,Bearings,each,122.38,207.85,3,V1275
+ P-1195 ,Cutting Fluid 20L Plus,Lubricants,ea,235.44,399.60,21,V1014
+ P-1196 ,Roller Bearing 6204 Mk2,Bearings,Each,170.49,$240.52,21,V1246
+P-1197,Grease Cartridge EP2 Plus,Lubricants,PCS,307.48,549.00,7 days,V1273
+P-1198,Flat Washer M12,Fasteners,bundle,$314.72,526.44,7 days,V1269
+ P-1199 ,Hi-Vis Vest size XL Plus,Safety,Box,367.04,631.73,14,V1186
+ P-1200 ,Pillow Block 6306 Pro,Bearings,EA,164.89,264.10,14,V1217
+ P-1201 ,Grease Cartridge ISO46 HD,Lubricants,liter,145.51,197.08,10 days,V2023
+p-1202,Bubble Roll 500mm HD,Packaging,MTR,179.33,231.65,5 days,V9999
+P-1203,Copper Wire 2mm Mk2,Raw Materials,metre,153.34,225.14,21 days,V1251
+ P-1204 ,Bubble Roll 500mm Pro,Packaging,each,146.00,$218.04,3 days,V1066
+p-1205,Stretch Film 48mm HD,Packaging,EA,375.03,519.40,7,V1088
+p-1206,Hydraulic Hose 3/4in HD,Hydraulics,metre,434.08,742.65,21,V1195
+P1207,Thrust Bearing 6205,Bearings,EA,153.23,244.40,21,V1239
+P-1208,Safety Goggles class 2 Std,Safety,unit,164.29,$234.29,14,V1235
+P-1209,Hose Fitting 1/2in Plus,Hydraulics,ea,242.41,315.89,30 days,V1045
+P-1210,Pillow Block UCP205 Plus,Bearings,EA,$177.37,247.97,3 days,V1157
+ P-1211 ,Cutting Fluid ISO32 HD,Lubricants,EA,10.34,16.10,3 days,V2016
+P1212,Hydraulic Hose 3/4in Pro,Hydraulics,meter,429.65,671.70,3 days,V1172
+P-1213,Aluminium Rod grade A HD,Raw Materials,m,297.95,460.67,10,V1195
+ P-1214 ,Aluminium Rod RAL7035 Mk2,Raw Materials,kgs,264.26,471.44,3,V1131
+P-1215,Copper Cable 600mm Pro,Electrical,bx,238.59,319.39,7,V1207
+P-1216,Pressure Valve 1/4in Mk2,Hydraulics,pcs,$418.00,598.78,5,V2019
+p-1217,Resin Pellets grade A Mk2,Raw Materials,MTR,213.69,288.62,10,V1240
+ P-1218 ,Copper Wire grade A,Raw Materials,meter,$41.19,$60.58,7 days,V1219
+P-1219,Cable Tie 32A Plus,Electrical,m,42.67,53.82,3 days,V2002
+P-1220,Safety Gloves size L Pro,Safety,Each,433.63,$543.15,21 days,V1279
+p-1221,Safety Gloves size L HD,Safety,carton,286.56,386.85,7,V2004
+P1222,Seal Kit 3/4in,Hydraulics,M,$258.46,423.49,7,V1158
+ P-1223 ,Rivet M6 XL,Fasteners,EA,399.75,677.16,10,V2004
+P-1224,Hard Hat EN166 XL,Safety,PCS,75.66,115.28,7 days,V2030
+P1225,Hi-Vis Vest EN166 Plus,Safety,carton,175.23,310.02,5,V1133
+p-1226,Pressure Valve 200bar HD,Hydraulics,pcs,$357.41,$517.20,30,V1226
+ P-1227 ,LED Panel 2.5mm,Electrical,metre,298.72,523.22,21 days,V1218
+P1228,Pillow Block 6306 HD,Bearings,pc,82.83,116.88,21,V1137
+P1229,Junction Box 2.5mm Eco,Electrical,CTN,47.30,$71.72,21,V1275
+ P-1230 ,Stretch Film 500mm Plus,Packaging,PCS,19.12,27.13,7,V1259
+P-1231,Rivet M6 Pro,Fasteners,carton,435.06,588.87,3 days,V1233
+P-1232,Paint RAL7035,Raw Materials,L,$382.21,555.72,3,V2004
+p-1233,Gear Oil ISO46,Lubricants,litre,$320.70,526.82,30,V1217
+P-1234,Hex Bolt M12,Fasteners,unit,93.03,163.58,3 days,V2022
+P-1235,Hard Hat class 2,Safety,Box,$372.03,652.79,21,V1062
+P-1236,Corrugated Box large Eco,Packaging,carton,310.75,529.19,21 days,V1080
+p-1237,Grease Cartridge 20L Pro,Lubricants,ea,$282.09,$359.10,30,V1234
+ P-1238 ,Ball Bearing 6204,Bearings,EA,24.29,,14 days,V1259
+P1239,Packing Tape large,Packaging,Box,241.50,415.51,10,V1050
+ P-1240 ,Aluminium Rod 1mm XL,Raw Materials,Kilogram,380.97,502.85,3,V1046
+p-1241,Circuit Breaker 2.5mm Plus,Electrical,pcs,174.87,291.93,5 days,V1211
+p-1242,Hi-Vis Vest size L Eco,Safety,each,$268.81,434.02,7 days,V1244
+p-1243,Safety Gloves EN166,Safety,each,6.79,9.76,10 days,V2012
+P-1244,Gear Oil ISO32 Eco,Lubricants,EA,171.26,261.70,7,V1081
+P-1245,Hi-Vis Vest size M,Safety,PCS,392.15,$672.10,10,V1062
+P-1246,Safety Gloves size M,Safety,CTN,$308.27,473.17,3,V1071
+P1247,Safety Goggles size M,Safety,EA,64.91,105.57,3,V1194
+P1248,Wood Screw M16,Fasteners,each,$54.19,90.45,3,V1029
+P1249,Anchor Bolt M12 XL,Fasteners,carton,,472.34,21,V1262
+ P-1250 ,Thrust Bearing UCP205 Std,Bearings,ea,64.75,98.00,7 days,V1132
+p-1251,Roller Bearing 6306 Mk2,Bearings,ea,132.65,238.71,7 days,V1011
+ P-1252 ,Copper Wire 2mm Pro,Raw Materials,ltr,207.19,359.25,7,V2005
+P-1253,Hard Hat class 2 Eco,Safety,Box,397.68,657.52,30,V2015
+P-1254,Aluminium Rod RAL7035 HD,Raw Materials,LTR,111.00,150.41,7 days,V2024
+P-1255,Copper Wire 10mm HD,Raw Materials,MTR,177.02,231.85,30,V1270
+P-1256,Steel Sheet 2mm HD,Raw Materials,KILO,$152.22,245.50,21,V1158
+P-1257,Anchor Bolt M8,Fasteners,each,173.93,243.56,7,V1198
+P-1258,Roller Bearing 22210 Std,Bearings,each,$86.47,144.36,30 days,V1267
+P-1259,Anchor Bolt M6 Plus,Fasteners,each,29.79,37.38,3,V1040
+ P-1260 ,Safety Goggles size L,Safety,pcs,334.72,475.02,5,V1120
+P-1261,Cutting Fluid EP2 Mk2,Lubricants,each,$79.18,$103.40,7,V2005
+P-1262,Gear Pump 1/4in XL,Hydraulics,m,$409.64,547.71,30,V1107
+P-1263,Ball Bearing 6205,Bearings,Each,164.02,273.20,7,V2016
+P1264,Resin Pellets 2mm,Raw Materials,L,345.31,562.33,14 days,V2019
+P-1265,Gear Pump 1/4in Eco,Hydraulics,M,425.99,739.98,5,V2003
+ P-1266 ,Pressure Valve 350bar Std,Hydraulics,unit,304.95,399.80,7,V2011
+P-1267,Stretch Film large,Packaging,BOX,271.42,341.66,21,V2012
+ P-1268 ,Corrugated Box 500mm Std,Packaging,ea,441.92,671.40,7,V1096
+P1269,Pallet Wrap 48mm Eco,Packaging,carton,152.15,$252.95,30,V1125
+P1270,Lock Nut M16,Fasteners,PCS,$5.20,7.37,7,V2013
+P-1271,Copper Wire 10mm Plus,Raw Materials,M,230.86,,14,V1128
+p-1272,Bubble Roll medium,Packaging,CTN,220.18,285.31,30 days,V2003
+ P-1273 ,Ear Plugs size M Pro,Safety,EA,364.92,504.91,7,V1066
+P1274,Ball Bearing 6204 Pro,Bearings,pc,131.27,226.91,5 days,V1214
+p-1275,Grease Cartridge ISO32 XL,Lubricants,L,55.24,75.11,5 days,V1242
+P1276,Copper Cable 32A Plus,Electrical,Each,308.65,394.30,5 days,V1214
+P1277,Thrust Bearing 6205 Mk2,Bearings,pc,177.88,268.25,3 days,V1176
+P-1278,Hex Bolt M8,Fasteners,CTN,438.40,582.70,7,V1238
+p-1279,Circuit Breaker 4mm,Electrical,Each,381.94,511.54,10 days,V1176
+P1280,Corrugated Box 48mm Std,Packaging,meter,371.08,512.99,3,V1232
+P1281,Pallet Wrap medium,Packaging,unit,29.47,44.84,3,V1155
+P1282,Junction Box 2.5mm Mk2,Electrical,metre,$303.66,477.80,14,V1209
+P1283,LED Panel 16A Mk2,Electrical,MTR,377.94,546.86,30 days,V1113
+P-1284,Grease Cartridge 20L Mk2,Lubricants,ltr,85.95,109.46,14 days,V1165
+P-1285,Hi-Vis Vest class 2,Safety,Box,390.96,585.93,7,V1139
+p-1286,Steel Sheet 2mm Plus,Raw Materials,ltr,142.80,,14,V1276
+P-1287,Ball Bearing 6204 Eco,Bearings,ea,87.12,125.06,3 days,V1067
+ P-1288 ,Bubble Roll large HD,Packaging,M,85.80,141.40,21 days,V1067
+ P-1289 ,Hydraulic Oil EP2 Pro,Lubricants,PCS,30.48,49.94,10 days,V1180
+p-1290,Gear Oil 5L Eco,Lubricants,Each,6.23,9.95,14 days,V1233
+p-1291,Paint 1mm XL,Raw Materials,metre,58.59,84.23,14 days,V1052
+P-1292,Ear Plugs class 2 Pro,Safety,CTN,8.36,$12.37,7 days,V2023
+p-1293,Pillow Block 22210 Plus,Bearings,pcs,$53.37,$83.66,14 days,V1052
+P1294,Ear Plugs size L,Safety,PCS,318.76,541.04,7 days,V1167
+P1295,Flat Washer M16,Fasteners,bx,396.38,659.02,14 days,V1172
+p-1296,Grease Cartridge ISO32 Eco,Lubricants,liter,175.55,295.84,10 days,V1133
+p-1297,Wood Screw M8,Fasteners,each,100.81,144.16,30,V1273
+p-1298,Pallet Wrap 48mm Std,Packaging,m,272.31,370.35,7 days,V2020
+P1299,Cable Tie 2.5mm Mk2,Electrical,carton,398.19,672.69,10 days,V1137
+P-1300,Steel Sheet 10mm Std,Raw Materials,meter,92.23,116.57,21,V1166
+ P-1301 ,Gear Pump 200bar,Hydraulics,MTR,250.05,416.87,5,V2015
+P-1302,Corrugated Box 500mm Eco,Packaging,M,128.43,$169.62,3 days,V1123
+P-1303,Grease Cartridge ISO46 Std,Lubricants,each,374.38,581.25,21 days,V1142
+P-1304,Hose Fitting 350bar Plus,Hydraulics,MTR,342.33,488.92,3 days,V2002
+P-1305,Gear Pump 1/4in Pro,Hydraulics,pc,63.30,97.33,7 days,V1132
+ P-1306 ,Safety Goggles size M Eco,Safety,EA,$154.87,235.53,3,V1218
+P1307,Aluminium Rod RAL7035 Plus,Raw Materials,Kilogram,40.63,60.81,5,V1101
+ P-1308 ,Hex Bolt M8 Eco,Fasteners,unit,19.46,32.44,7 days,V2005
+ P-1309 ,Safety Goggles class 2 Plus,Safety,bx,285.60,,10 days,V1229
+P-1310,Paint 1mm Pro,Raw Materials,KG,90.38,123.36,30,V1238
+ P-1311 ,LED Panel 16A XL,Electrical,ea,$404.40,593.84,7,V1214
+P-1312,Pallet Wrap 500mm,Packaging,BOX,168.69,225.69,7,V1100
+P-1313,Hard Hat size XL Std,Safety,lot,176.93,265.11,30,V1221
+P-1314,Aluminium Rod 2mm,Raw Materials,metre,$51.07,86.44,7,V1195
+P-1315,Corrugated Box 500mm Plus,Packaging,CTN,136.80,$175.09,7,V1099
+P-1316,Ball Bearing 6306 Pro,Bearings,Each,$42.09,72.53,7,V1243
+P1317,Copper Wire grade A Eco,Raw Materials,Kilogram,270.98,475.96,30,V1109
+P1318,Ball Bearing UCP205 Pro,Bearings,unit,159.66,253.96,3 days,V2030
+P-1319,Flat Washer M12 Eco,Fasteners,Each,$328.05,427.61,14 days,V1080
+P-1320,Copper Wire 1mm Std,Raw Materials,KILO,188.10,265.90,3,V2010
+p-1321,Hose Fitting 200bar,Hydraulics,pcs,418.58,550.93,3,V2030
+p-1322,Gear Oil ISO32 Pro,Lubricants,ltr,$39.11,$58.68,10 days,V1238
+P-1323,Hydraulic Oil ISO46,Lubricants,unit,97.28,157.88,3 days,V1155
+P-1324,Cutting Fluid ISO46 Pro,Lubricants,LTR,259.71,418.43,10,V1243
+P1325,Gear Oil EP2 Pro,Lubricants,ltr,302.19,$416.77,30,V1221
+ P-1326 ,Rivet M12 XL,Fasteners,BOX,428.49,722.25,3,V1039
+P1327,Hi-Vis Vest class 2 XL,Safety,carton,74.09,$122.20,7 days,V1217
+ P-1328 ,Hi-Vis Vest size L XL,Safety,Box,181.04,324.23,10,V1230
+p-1329,Cutting Fluid EP2 Eco,Lubricants,unit,39.27,68.20,14,V2021
+P-1330,Hydraulic Hose 3/4in XL,Hydraulics,each,413.27,652.69,7,V2019
+P1331,Pressure Valve 200bar Pro,Hydraulics,PCS,370.62,665.18,3,V1198
+P-1332,Flat Washer M16 Mk2,Fasteners,each,424.05,$689.59,14,V1123
+P1333,Ear Plugs class 2 XL,Safety,Box,295.74,405.31,14,V1234
+ P-1334 ,Circuit Breaker 32A HD,Electrical,Each,$375.52,617.32,5 days,V1029
+ P-1335 ,Ball Bearing 6205 Pro,Bearings,unit,6.85,$9.02,7 days,V1232
+P-1336,Copper Cable 16A Eco,Electrical,MTR,427.98,757.39,21 days,V1205
+P-1337,Pillow Block 22210 XL,Bearings,EA,107.79,172.40,3,V1016
+ P-1338 ,Grease Cartridge EP2 Pro,Lubricants,EA,115.40,198.91,21 days,V1269
+p-1339,Junction Box 600mm,Electrical,metre,$279.26,494.85,30,V2013
+p-1340,Wood Screw M6 Eco,Fasteners,pcs,113.77,147.40,5,V1262
+p-1341,Hard Hat EN166 Eco,Safety,BOX,15.84,$24.61,30 days,V1147
+p-1342,Copper Cable 4mm,Electrical,CTN,267.21,448.77,30 days,V1076
+P1343,Grease Cartridge 20L Eco,Lubricants,ltr,360.67,501.07,5,V1172
+P-1344,Gear Pump 3/4in Plus,Hydraulics,metre,73.57,$116.29,21,V1066
+ P-1345 ,Circuit Breaker 32A Eco,Electrical,m,112.37,188.41,7 days,V1020
+P-1346,Corrugated Box medium Std,Packaging,m,389.56,668.11,7,V1238
+P1347,Copper Cable 4mm HD,Electrical,bx,59.75,93.18,30 days,V1278
+ P-1348 ,Steel Sheet RAL7035 Mk2,Raw Materials,LTR,165.98,$217.18,30 days,V1156
+P-1349,Steel Sheet 1mm Pro,Raw Materials,L,118.54,171.49,21,V1097
+P1350,Hydraulic Hose 1/4in,Hydraulics,each,$73.23,118.31,30,V1188
+ P-1351 ,Ear Plugs size XL Eco,Safety,pcs,,47.80,5 days,V1092
+P1352,Steel Sheet 10mm Pro,Raw Materials,Kilogram,229.78,301.47,10 days,V1007
+P-1353,Corrugated Box large HD,Packaging,ea,387.32,524.34,30 days,V1087
+P-1354,Circuit Breaker 32A XL,Electrical,BOX,285.18,491.16,5 days,V1052
+P-1355,Hydraulic Hose 200bar,Hydraulics,Each,$231.22,,7,V1147
+P1356,Hard Hat size XL Eco,Safety,BOX,27.23,,14 days,V1015
+ P-1357 ,Pillow Block 22210 Eco,Bearings,pc,110.73,184.00,7 days,V1276
+ P-1358 ,Aluminium Rod 2mm XL,Raw Materials,M,234.76,,21 days,V1149
+P1359,LED Panel 2.5mm Mk2,Electrical,unit,401.29,672.20,3 days,V1141
+ P-1360 ,Packing Tape large Std,Packaging,metre,376.41,538.23,10 days,V2016
+P-1361,Cutting Fluid 20L Mk2,Lubricants,liter,252.26,380.44,5,V1127
+p-1362,Cable Tie 16A Std,Electrical,Box,$393.69,603.30,14,V2011
+ P-1363 ,Pillow Block UCP205 Mk2,Bearings,Each,$76.43,120.67,7 days,V1275
+P1364,Hose Fitting 1/2in Mk2,Hydraulics,m,308.82,$420.75,30 days,V1074
+P-1365,Cable Tie 4mm,Electrical,carton,92.90,158.55,7 days,V2026
+P1366,Grease Cartridge ISO46 Eco,Lubricants,unit,218.16,384.59,30,V1063
+P1367,Bubble Roll small Std,Packaging,bx,56.34,95.62,21,V1080
+P-1368,Packing Tape 48mm XL,Packaging,Box,262.78,402.35,21 days,V1022
+P1369,Resin Pellets RAL7035 Pro,Raw Materials,metre,214.58,305.18,7,V1132
+p-1370,Hex Bolt M6,Fasteners,Box,125.10,165.14,5 days,V9999
+P-1371,Aluminium Rod 1mm Mk2,Raw Materials,kgs,255.13,334.55,10 days,V1096
+P1372,Bubble Roll large Plus,Packaging,ea,106.67,165.82,14,V1071
+p-1373,Lock Nut M6 XL,Fasteners,Box,333.31,565.04,5 days,V1145
+ P-1374 ,Roller Bearing 22210 XL,Bearings,PCS,$33.15,58.17,10,V1096
+P-1375,Packing Tape 500mm,Packaging,bx,$387.46,579.40,7 days,V1032
+P-1376,Resin Pellets grade A HD,Raw Materials,MTR,332.73,571.57,21 days,V1267
+P-1377,Corrugated Box 48mm Eco,Packaging,m,355.40,511.16,3 days,V1211
+P-1378,Resin Pellets RAL7035 HD,Raw Materials,L,168.08,217.25,21,V1144
+ P-1379 ,Corrugated Box 48mm XL,Packaging,pcs,395.03,642.94,7 days,V1027
+ P-1380 ,Hydraulic Oil 5L,Lubricants,pcs,257.42,$375.71,30,V1160
+P-1381,Steel Sheet grade A,Raw Materials,kg,$115.01,160.79,10 days,V1071
+ P-1382 ,Roller Bearing 6204 Eco,Bearings,ea,$68.16,88.57,7,V1237
+P-1383,Flat Washer M6 XL,Fasteners,Box,$419.43,558.67,7 days,V2009
+p-1384,Pressure Valve 200bar Std,Hydraulics,pc,75.32,103.75,5,V1196
+p-1385,Hose Fitting 350bar Eco,Hydraulics,pcs,423.93,585.00,7 days,V1030
+P-1386,Copper Cable 16A Plus,Electrical,carton,352.50,464.69,30 days,V1135
+P1387,Ball Bearing 6306 Plus,Bearings,PCS,34.24,52.47,3,V1023
+P-1388,Aluminium Rod 2mm Pro,Raw Materials,KG,211.29,292.23,14,V1107
+p-1389,Gear Oil 5L HD,Lubricants,ltr,319.71,428.14,3,V1137
+P-1390,Hydraulic Hose 3/4in Eco,Hydraulics,m,238.19,386.50,21 days,V1244
+P-1391,Paint grade A Mk2,Raw Materials,M,$424.50,714.23,21 days,V1183
+P1392,Gear Oil ISO32 HD,Lubricants,lot,33.41,$57.23,5 days,V1147
+P-1393,Resin Pellets 10mm Std,Raw Materials,MTR,11.13,15.13,3,V1270
+P-1394,Gear Pump 350bar Plus,Hydraulics,ea,341.54,548.85,10 days,V1062
+P-1395,Lock Nut M12,Fasteners,CTN,114.11,171.91,30 days,V1085
+P-1396,Gear Oil 5L Pro,Lubricants,ltr,110.72,193.03,5,V1022
+P-1397,Hi-Vis Vest class 2 Mk2,Safety,each,392.50,619.77,14 days,V1190
+p-1398,Hydraulic Oil 5L Pro,Lubricants,ltr,158.88,225.72,7,V1043
+P-1399,Seal Kit 3/4in Pro,Hydraulics,Each,$11.50,18.36,14,V1144
+P-1400,Safety Goggles size XL Pro,Safety,each,$360.63,626.03,30,V1179
+P-1401,Anchor Bolt M16 Mk2,Fasteners,Each,337.12,606.56,7 days,V2013
+ P-1402 ,Hi-Vis Vest size XL HD,Safety,unit,64.34,$83.72,21 days,V1089
+ P-1403 ,Hex Bolt M10,Fasteners,pcs,5.85,,7 days,V1065
+P-1404,Paint RAL7035 Std,Raw Materials,Kilogram,445.70,557.26,5,V1017
+P-1405,Packing Tape small,Packaging,each,98.90,$173.93,30,V1229
+P-1406,Hi-Vis Vest size XL XL,Safety,carton,251.53,401.78,14,V1228
+P-1407,Bubble Roll medium HD,Packaging,bx,366.79,556.01,14,V2010
+P-1408,Cutting Fluid ISO32 XL,Lubricants,PCS,135.43,177.22,7,V1273
+P-1409,Roller Bearing 22210 HD,Bearings,unit,,246.64,21,V1124
+p-1410,Resin Pellets 1mm Std,Raw Materials,KG,421.94,598.90,30 days,V2016
+p-1411,Paint 2mm Eco,Raw Materials,KILO,193.78,$272.76,7 days,V1207
+ P-1412 ,Ear Plugs class 2 Plus,Safety,pcs,37.66,48.78,3,V1154
+p-1413,Hydraulic Oil ISO46 Pro,Lubricants,L,1.34,1.70,10 days,V2012
+P-1414,Hose Fitting 3/4in Pro,Hydraulics,unit,17.91,32.12,3,V1081
+P-1415,Gear Pump 200bar Pro,Hydraulics,m,120.59,,5 days,V1108
+ P-1416 ,Hydraulic Hose 200bar XL,Hydraulics,pc,383.64,615.32,5,V1090
+P-1417,Stretch Film 48mm Plus,Packaging,unit,152.66,249.17,30,V1178
+P-1418,Hydraulic Hose 1/4in Pro,Hydraulics,ea,$264.62,$352.27,30 days,V1244
+P1419,Cable Tie 16A Mk2,Electrical,EA,144.25,237.33,21 days,V1218
+P1420,Corrugated Box 48mm Mk2,Packaging,EA,15.61,22.87,14 days,V1016
+P-1421,Packing Tape medium,Packaging,CTN,365.71,,21,V1122
+P1422,Gear Oil EP2 Mk2,Lubricants,each,435.03,701.32,7 days,V1273
+p-1423,Hose Fitting 200bar Pro,Hydraulics,m,219.31,292.01,7,V1208
+ P-1424 ,Grease Cartridge ISO46 Mk2,Lubricants,L,81.56,136.53,14 days,V1279
+p-1425,Safety Goggles size M Pro,Safety,Each,217.47,297.08,14 days,V9999
+p-1426,Bubble Roll 48mm XL,Packaging,m,$447.14,786.80,7 days,V1248
+p-1427,Wood Screw M16 XL,Fasteners,carton,130.87,166.79,14,V1203
+P-1428,Junction Box 32A Eco,Electrical,carton,411.38,643.62,14 days,V1090
+ P-1429 ,Grease Cartridge EP2 Mk2,Lubricants,L,383.53,620.41,10 days,V1003
+P-1430,Ball Bearing 6205 Plus,Bearings,??,83.07,$103.94,3 days,V2026
+P1431,Bubble Roll 500mm Eco,Packaging,metre,7.75,$13.07,10 days,V1227
+P-1432,Wood Screw M16 HD,Fasteners,CTN,240.53,403.81,7 days,V2013
+ P-1433 ,Hard Hat EN166 Mk2,Safety,bx,90.44,117.01,7 days,V2001
+P-1434,Circuit Breaker 16A,Electrical,meter,76.39,123.71,21,V1154
+P-1435,Roller Bearing 6306 Pro,Bearings,pcs,138.66,,5,V1066
+ P-1436 ,Copper Cable 4mm Pro,Electrical,meter,350.49,624.16,5,V1126
+p-1437,LED Panel 600mm Eco,Electrical,MTR,230.05,372.08,10,V1131
+P-1438,Cable Tie 4mm Eco,Electrical,Box,363.05,642.50,3,V2020
+P-1439,Hard Hat EN166 Plus,Safety,each,310.41,469.74,14 days,V1140
+P-1440,Steel Sheet RAL7035 Plus,Raw Materials,Kilogram,365.39,490.40,30 days,V1262
+P-1441,Hard Hat size M,Safety,PCS,16.76,$20.98,14 days,V1228
+P-1442,Flat Washer M12 Pro,Fasteners,pcs,60.68,$95.70,5 days,V1168
+P-1443,Anchor Bolt M10,Fasteners,bx,111.02,156.69,5,V1113
+P-1444,Hose Fitting 200bar HD,Hydraulics,meter,126.59,226.56,14,V1118
+P-1445,Packing Tape small Pro,Packaging,BOX,441.57,596.84,5,V2030
+P-1446,Cable Tie 2.5mm Pro,Electrical,meter,438.60,625.04,5,V1087
+p-1447,Circuit Breaker 2.5mm Std,Electrical,carton,140.45,233.87,5 days,V1189
+ P-1448 ,Steel Sheet 10mm Eco,Raw Materials,meter,42.20,58.99,3 days,V1042
+p-1449,Hex Bolt M12 Pro,Fasteners,carton,211.36,311.40,5,V1204
+P-1450,Ball Bearing 6306 HD,Bearings,EA,36.58,58.42,3 days,V1246
+ P-1451 ,Steel Sheet RAL7035 Std,Raw Materials,LTR,259.68,435.47,7 days,V1095
+ P-1452 ,Wood Screw M8 XL,Fasteners,PCS,300.23,511.52,10,V1144
+P1453,Paint 10mm Std,Raw Materials,Kilogram,112.36,184.14,10,V1174
+P1454,Hex Bolt M12 XL,Fasteners,bx,86.35,$140.77,7,V1199
+P-1455,Circuit Breaker 4mm Mk2,Electrical,each,$18.48,$30.67,5,V1058
+P1456,Pillow Block 6204 XL,Bearings,PCS,4.50,$7.40,3 days,V1127
+P1457,Thrust Bearing 6205 HD,Bearings,ea,$131.48,227.18,14 days,V2013
+P1458,Packing Tape medium Plus,Packaging,PCS,285.92,418.61,7,V2028
+P-1459,Thrust Bearing 22210 Std,Bearings,EA,$80.99,101.37,30,V1273
+P-1460,Corrugated Box 48mm Pro,Packaging,EA,$396.64,557.63,7,V1008
+P1461,Hydraulic Oil 20L,Lubricants,pcs,204.71,328.42,30,V1106
+p-1462,Lock Nut M12 Eco,Fasteners,EA,98.81,129.48,14,V1234
+P1463,Cable Tie 600mm,Electrical,BOX,359.84,529.70,5 days,V1046
+P1464,Pillow Block 6306 Plus,Bearings,each,47.00,74.97,3,V1011
+ P-1465 ,Safety Gloves class 2 HD,Safety,CTN,84.64,139.36,21 days,V1105
+P-1466,Thrust Bearing UCP205 XL,Bearings,Each,103.27,150.67,7 days,V2011
+P-1467,Flat Washer M10 Eco,Fasteners,bx,341.61,519.67,21 days,V2001
+P-1468,Copper Cable 600mm HD,Electrical,pc,104.39,142.26,21 days,V1259
+P-1469,Copper Cable 600mm Eco,Electrical,EA,323.41,535.54,7,V1017
+P-1470,Stretch Film 500mm Eco,Packaging,bx,54.48,87.37,30,V2003
+p-1471,Hard Hat EN166 Pro,Safety,bx,42.44,71.52,7 days,V1234
+p-1472,Bubble Roll medium Mk2,Packaging,M,340.89,427.30,30,V1088
+P-1473,Copper Wire 1mm Pro,Raw Materials,Kilogram,226.86,398.97,10,V1237
+P-1474,Safety Goggles class 2 XL,Safety,ea,313.29,518.93,3,V1081
+P1475,Anchor Bolt M8 HD,Fasteners,each,372.34,492.59,30 days,V1162
+P1476,Roller Bearing 6204 Pro,Bearings,ea,131.73,191.23,10,V1155
+P1477,Hydraulic Hose 1/2in Eco,Hydraulics,PCS,170.39,248.09,7,V1150
+P-1478,Circuit Breaker 32A Pro,Electrical,CTN,195.80,332.26,10 days,V1241
+P-1479,Hi-Vis Vest size L Plus,Safety,pcs,448.75,796.30,21,V1278
+p-1480,Ball Bearing 6205 Eco,Bearings,each,56.01,98.58,5 days,V1052
+P-1481,Lock Nut M16 Plus,Fasteners,CTN,51.28,75.23,7,V1076
+ P-1482 ,Roller Bearing 6205 Pro,Bearings,PCS,93.48,129.27,5 days,V1186
+P1483,Pressure Valve 1/4in Eco,Hydraulics,PCS,$220.93,293.14,7 days,V1039
+P-1484,Seal Kit 200bar Pro,Hydraulics,EA,190.19,314.91,14 days,V1232
+p-1485,Pallet Wrap small Pro,Packaging,pcs,344.56,577.63,3 days,V2024
+P-1486,Hex Bolt M10 HD,Fasteners,Each,341.00,441.75,7,V1043
+ P-1487 ,Grease Cartridge ISO32 Plus,Lubricants,liter,284.03,467.39,14 days,V1230
+P-1488,LED Panel 16A Plus,Electrical,pc,131.75,170.85,7 days,V1198
+p-1489,Grease Cartridge 5L XL,Lubricants,LTR,409.65,545.99,10,V1275
+P1490,Hex Bolt M16,Fasteners,CTN,22.36,38.84,21,V1127
+P-1491,Cable Tie 600mm Std,Electrical,metre,$238.70,347.96,5 days,V1065
+P1492,Bubble Roll medium Std,Packaging,EA,$166.56,241.75,7 days,V1137
+p-1493,Rivet M6 Mk2,Fasteners,carton,$211.61,288.71,21,V1211
+P-1494,Pressure Valve 1/4in Pro,Hydraulics,pcs,120.81,212.68,21,V1184
+P1495,LED Panel 600mm Mk2,Electrical,carton,2.64,4.36,7,V1168
+P1496,Gear Oil 20L,Lubricants,litre,87.56,$134.89,5 days,V1097
+p-1497,Hydraulic Hose 1/2in Mk2,Hydraulics,M,$180.28,297.33,10 days,V1067
+ P-1498 ,Lock Nut M12 Plus,Fasteners,BOX,322.76,531.66,21,V1119
+P-1499,Wood Screw M10 Mk2,Fasteners,Box,175.69,311.04,14,V1019
+ P-1500 ,Gear Pump 1/2in Mk2,Hydraulics,MTR,304.22,471.21,7 days,V1246
+P1501,Anchor Bolt M6 Eco,Fasteners,BOX,170.02,286.59,10,V1184
+P-1502,Lock Nut M6 Std,Fasteners,unit,108.95,185.95,10,V1058
+P-1503,Stretch Film large HD,Packaging,Each,92.41,$126.13,14,V1183
+p-1504,Bubble Roll large Mk2,Packaging,meter,55.33,$75.91,7,V1040
+ P-1505 ,LED Panel 32A XL,Electrical,unit,210.12,325.56,7 days,V1040
+p-1506,Grease Cartridge 5L Pro,Lubricants,each,207.99,,3,V1077
+P-1507,Ball Bearing 6204 XL,Bearings,ea,22.79,29.89,7 days,V1183
+P-1508,Lock Nut M12 Std,Fasteners,Box,212.73,296.79,10,V1205
+P-1509,Junction Box 2.5mm XL,Electrical,MTR,$306.18,444.68,14 days,V1023
+ P-1510 ,Cable Tie 600mm Pro,Electrical,BOX,363.91,582.84,10 days,V1111
+P1511,Gear Pump 1/2in HD,Hydraulics,PCS,366.80,648.46,7 days,V1162
+p-1512,Pallet Wrap large,Packaging,each,$188.45,262.01,3,V1248
+p-1513,Corrugated Box 500mm XL,Packaging,M,183.50,$233.70,14 days,V1271
+p-1514,Resin Pellets 1mm XL,Raw Materials,kg,$312.28,518.54,21,V1009
+P-1515,Copper Cable 32A HD,Electrical,Each,308.33,439.74,7,V1074
+ P-1516 ,Pillow Block 6306 Std,Bearings,Each,13.16,20.13,7 days,V1046
+ P-1517 ,Cutting Fluid 5L Plus,Lubricants,ltr,252.79,402.35,10,V1019
+P1518,Circuit Breaker 16A XL,Electrical,Box,2.63,4.71,7 days,V1095
+P-1519,Copper Cable 2.5mm Mk2,Electrical,bx,167.01,272.51,3 days,V1194
+P-1520,Cable Tie 16A XL,Electrical,pcs,$82.13,134.94,30 days,V2019
+p-1521,Gear Pump 350bar Mk2,Hydraulics,MTR,$257.93,431.17,21,V2022
+P1522,Bubble Roll 500mm Plus,Packaging,M,270.30,438.36,30 days,V1181
+p-1523,Cable Tie 2.5mm Plus,Electrical,meter,225.40,352.35,7 days,V2029
+P-1524,Pillow Block 6205 Plus,Bearings,PCS,174.56,272.34,3 days,V1238
+P-1525,Steel Sheet grade A Plus,Raw Materials,Kilogram,$188.20,301.70,7 days,V1119
+P-1526,Hard Hat EN166 HD,Safety,PCS,295.90,505.93,10 days,V1128
+P-1527,Steel Sheet 2mm Mk2,Raw Materials,metre,254.99,,7,V1267
+P-1528,Ear Plugs size L Eco,Safety,Each,297.55,$500.18,21,V1128
+P-1529,Steel Sheet 2mm Pro,Raw Materials,MTR,252.98,329.90,7,V1184
+P1530,Ear Plugs size XL Plus,Safety,unit,54.44,91.32,21,V1096
+p-1531,Ball Bearing 6204 Mk2,Bearings,each,153.99,$243.34,21 days,V1023
+P-1532,Junction Box 600mm HD,Electrical,Box,34.15,$46.32,14 days,V1014
+ P-1533 ,Rivet M10,Fasteners,pcs,36.41,62.69,14,V1145
+ P-1534 ,Seal Kit 1/2in,Hydraulics,MTR,$392.38,629.04,7 days,V1135
+ P-1535 ,Cutting Fluid 5L XL,Lubricants,liter,126.96,162.76,30,V2024
+ P-1536 ,Resin Pellets 2mm XL,Raw Materials,Kilogram,62.08,96.57,5 days,V1172
+P1537,Cable Tie 2.5mm Eco,Electrical,BOX,421.48,650.53,5,V2007
+P1538,Thrust Bearing 6205 Pro,Bearings,PCS,168.95,244.44,7 days,V1143
+P-1539,Junction Box 600mm Pro,Electrical,EA,209.13,359.13,7 days,V1032
+ P-1540 ,Hydraulic Hose 200bar Pro,Hydraulics,m,98.80,136.43,14 days,V1173
+P-1541,Hi-Vis Vest size M HD,Safety,ea,98.53,171.47,10 days,V1204
+p-1542,Anchor Bolt M8 Plus,Fasteners,each,260.63,345.98,21 days,V1020
+P1543,Junction Box 16A Std,Electrical,unit,447.72,670.89,10 days,V1142
+ P-1544 ,Hydraulic Oil ISO46 Eco,Lubricants,pcs,333.52,539.30,7,V2003
+P1545,Lock Nut M6 Eco,Fasteners,ea,402.46,$525.73,7 days,V1150
+P1546,Seal Kit 350bar,Hydraulics,metre,153.33,257.81,30,V1154
+P-1547,Roller Bearing 6204 Plus,Bearings,??,94.69,139.63,14 days,V1264
+P-1548,Hydraulic Oil 5L Plus,Lubricants,unit,$316.39,465.58,5 days,V1238
+p-1549,Wood Screw M12 HD,Fasteners,pcs,405.18,698.15,3,V1001
+ P-1550 ,Paint 2mm Pro,Raw Materials,Kilogram,296.65,400.25,14,V1067
+P-1551,Junction Box 16A Pro,Electrical,bx,349.87,627.62,5 days,V1144
+ P-1552 ,Hydraulic Hose 350bar Mk2,Hydraulics,ea,346.63,447.16,7 days,V1142
+P1553,Hydraulic Oil 20L XL,Lubricants,ea,240.60,331.88,10,V1009
+P1554,Pressure Valve 1/4in Plus,Hydraulics,each,149.16,264.50,7 days,V1187
+p-1555,Paint 10mm XL,Raw Materials,ltr,436.09,576.29,14,V1210
+P-1556,Copper Cable 16A Std,Electrical,Box,$203.56,311.27,3,V1157
+ P-1557 ,Cable Tie 4mm HD,Electrical,M,402.88,602.78,30 days,V1268
+P-1558,Hydraulic Hose 350bar Eco,Hydraulics,ea,$124.00,220.71,5,V1227
+P-1559,Cutting Fluid 20L XL,Lubricants,LTR,$221.82,381.83,21,V1242
+p-1560,Pressure Valve 3/4in XL,Hydraulics,meter,$259.73,$466.68,3,V1185
+P1561,Ear Plugs size M Eco,Safety,pcs,289.74,420.93,10,V2022
+P-1562,Hi-Vis Vest EN166 Pro,Safety,PCS,14.17,19.02,7 days,V1127
+P-1563,Safety Goggles size XL HD,Safety,CTN,$420.43,632.06,21 days,V1130
+P-1564,Corrugated Box medium Mk2,Packaging,metre,428.26,660.80,10,V1089
+p-1565,Ball Bearing 6306 Eco,Bearings,pc,32.94,53.58,14,V1266
+P-1566,Hi-Vis Vest size L Std,Safety,pcs,175.33,258.09,7 days,V2008
+P-1567,Ear Plugs EN166 Plus,Safety,pcs,309.02,424.27,5,V1141
+p-1568,Safety Goggles size M Mk2,Safety,CTN,220.54,391.67,14,V1122
+p-1569,Grease Cartridge EP2 HD,Lubricants,pcs,3.82,6.09,5,V2029
+ P-1570 ,Copper Cable 32A XL,Electrical,EA,218.12,296.54,14 days,V1104
+ P-1571 ,Packing Tape small Std,Packaging,each,372.49,487.58,7 days,V1087
+ P-1572 ,Thrust Bearing 22210 Plus,Bearings,pc,$59.85,106.41,10,V2005
+ P-1573 ,Rivet M8,Fasteners,PCS,341.09,477.33,7,V1179
+P-1574,Hi-Vis Vest size L HD,Safety,BOX,420.85,622.37,14 days,V2019
+P-1575,Resin Pellets RAL7035 Eco,Raw Materials,kgs,126.08,167.18,14 days,V1259
+p-1576,Corrugated Box 500mm HD,Packaging,M,137.32,$240.42,5,V1154
+P-1577,Safety Gloves size L Plus,Safety,unit,3.21,,10,V1091
+ P-1578 ,Ball Bearing 6205 HD,Bearings,pc,117.11,197.87,14,V1003
+p-1579,Safety Goggles class 2 Pro,Safety,Box,235.00,365.55,7,V1108
+P1580,Pallet Wrap 500mm XL,Packaging,Box,277.76,436.79,30,V1234
+ P-1581 ,Thrust Bearing 22210 Mk2,Bearings,unit,142.83,229.06,7,V1053
+P1582,Ear Plugs size L Std,Safety,each,129.85,199.87,7 days,V1046
+p-1583,Pressure Valve 1/4in HD,Hydraulics,pcs,90.40,156.69,3,V1213
+p-1584,Copper Cable 32A Mk2,Electrical,unit,$4.05,6.22,21,V1067
+P-1585,Gear Pump 200bar XL,Hydraulics,metre,317.89,428.30,7,V9999
+ P-1586 ,Gear Pump 1/2in Plus,Hydraulics,PCS,257.22,$367.56,5 days,V1270
+P-1587,Cutting Fluid 20L HD,Lubricants,ea,328.41,420.10,7 days,V1050
+P1588,Roller Bearing 22210 Plus,Bearings,Each,130.23,229.10,7 days,V2030
+ P-1589 ,Flat Washer M8,Fasteners,EA,77.98,129.26,7,V2024
+P1590,Copper Wire RAL7035 Pro,Raw Materials,KG,288.30,448.08,7 days,V1069
+P-1591,Safety Goggles size L Plus,Safety,each,260.09,370.92,10,V1051
+P-1592,Cutting Fluid 5L HD,Lubricants,PCS,$73.04,102.94,3,V1101
+P-1593,Hydraulic Oil ISO46 XL,Lubricants,LTR,$78.78,105.50,14,V1205
+P-1594,Grease Cartridge ISO46 XL,Lubricants,litre,428.08,$565.87,3 days,V1264
+P1595,Circuit Breaker 16A Eco,Electrical,Box,$328.25,566.11,7,V1020
+P1596,Pillow Block UCP205 Std,Bearings,ea,$36.50,64.18,3,V1107
+P-1597,LED Panel 600mm Std,Electrical,each,49.62,71.49,7 days,V2028
+P-1598,Copper Cable 4mm Mk2,Electrical,CTN,259.90,459.50,14,V1040
+P-1599,Ball Bearing UCP205 Plus,Bearings,each,38.55,60.41,30,V1233
+P-1600,Hydraulic Oil 20L Pro,Lubricants,litre,$65.67,104.96,7,V1067
+P1420,Corrugated Box 48mm Mk2,Packaging,EA,15.61,22.87,14 days,V1016
+ P-1557 ,Cable Tie 4mm HD,Electrical,M,402.88,602.78,30 days,V1268
+P-1598,Copper Cable 4mm Mk2,Electrical,CTN,259.90,459.50,14,V1040
+p-1032,Junction Box 16A,Electrical,Box,324.09,453.44,14,V1136
+P-1011,Aluminium Rod 1mm,Raw Materials,LTR,131.20,179.52,21 days,V1269

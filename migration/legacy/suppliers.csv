@@ -1,0 +1,317 @@
+SUPP_NO,SUPP_NAME,TAX_ID,CONTACT_EMAIL,PHONE,COUNTRY,TERMS,STATUS,RATING,CREATED
+V1166,"Shaw, Price and White",86-1047572,sales@harper-johnson.com,5786593213,United States,N30,APPROVED,4.6,2012-03-31
+V1238,Conley PLC,92-4206183,sales@moore-rodriguez.com,+1-479-608-0759x57947,US,N30,approved,3.4,2010-01-27
+V1020,Williams LLC,91-9517169,sales@nolan.com,+1-815-586-9232x26025,India,60 days,approved,3.0,22.05.2017
+V1235,Perez-Mccarty,97-8795078,sales@spears-andrews.com,(368)618-1845,IN,NET45,Active,4.1,01/10/2012
+V1199,"Johnson, Cohen and Roberson",93-2264218,sales@webb.com,(370)814-5089x93588,U.S.,30 days,APPROVED,4.9,"Feb 01, 2023"
+V1263,"Howe, King and Nixon",15-1476028,sales@moyer-smith.com,490-382-4043x3504,U.S.,30 days,Blocked,2.6,2023-05-22
+V1190,"Orozco, Hatfield and Thomas",37-3302417,sales@white.com,800-874-3292x71296,United States,NET30,A,3.2,2011-09-10
+V2014,"Horton, Snyder and Sanchez.",76-8574680,sales@watts.com,001-763-928-7083x17278,Mexico,NET30,A,,20250117
+V1065,Gomez-Ortega,84-6406444,sales@parrish-griffith.com,+1-745-319-8327x315,United States,Net 45,Active,3.6,20240226
+V1017,Medina PLC,42-1192619,sales@anderson-bailey.com,254.627.8498,CAN,30 days,APPROVED,4.2,2021-01-16
+V1144,"Martinez, Cline and Wright",46-3650391,sales@morris.biz,929.946.6711x6845,China,30 days,A,3.6,"Oct 01, 2016"
+V1243,Cervantes Group,66-6897979,sales@davis.com,+1-584-450-6159,Germany,Net 45,APPROVED,2.6,2016-11-28
+V1015,"Woods, Calhoun and Schmidt",27-9548432,sales@yu.com,291-336-1939,U.S.,45 days,Active,2.7,21.01.2010
+V1070,Hensley-Williams,23-8132769,sales@stevens.com,001-769-466-4160,DE,NET30,P,2.9,2024-08-10
+V1155,Gibson-Ward,68-7183841,sales@villarreal-jackson.com,719-813-8000x307,US,N30,approved,4.0,2023-04-28
+V1272,"Bray, Garcia and Stewart",74-8671057,sales@schmidt.info,+1-400-238-4576,US,N30,INACTIVE,3.0,20161130
+V1097,Peck-Griffith,76-4205394,sales@hines.net,774.270.1687x339,China,Net 30,A,3.1,2018-02-12
+V1027,"Briggs, Mcclain and Simmons",39-4694634,sales@griffin.info,734-787-3471x434,United States,N30,Active,2.7,26.02.2023
+V1131,"Jensen, Ellis and Taylor",85-9214801,sales@rush.org,(457)856-9245x9375,USA,NET30,APPROVED,3.6,2019-11-12
+V1173,Jackson-Bennett,80-6455706,sales@jones.com,+1-597-506-2962x015,United States,NET45,Active,5.0,2020-11-25
+V1241,Clark-Haynes,64-2324175,sales@diaz-morales.info,(892)893-1438,USA,N45,APPROVED,4.0,01/18/2013
+V1010,Lam-Hayes,92-2197935,sales@walker.com,001-383-293-0103,US,60 days,INACTIVE,4.1,12/24/2020
+V1062,West-Cox,94-3090865,sales@rodriguez.com,001-384-770-0766x1771,CN,30 days,approved,3.8,2023-12-17
+V1111,Poole PLC,37-5440025,sales@armstrong.com,887-913-9718x70728,CN,Net 30,A,2.9,"Nov 24, 2012"
+V1105,Rodriguez Ltd,72-2721135,sales@allen.com,+1-930-916-5712x0826,China,NET30,approved,3.9,2019-07-13
+V1072,Luna-Fuentes,86-6323376,sales@young.com,929.721.2779,Mexico,Net 45,INACTIVE,4.0,2020-04-28
+V2028,Avila LLC,94-4318855,,(533)575-2431x0690,IN,NET45,A,,2018-10-10
+V1060,"Lewis, Fowler and Maddox",34-5273534,sales@buchanan.com,001-431-283-9335,USA,N30,P,4.3,2009-01-14
+V1041,Kerr-Evans,36-6271130,sales@branch.org,001-813-934-1232x8120,CA,Net 30,Blocked,3.2,09.12.2011
+V1091,"Walker, Galloway and Conner",72-2770648,sales@tyler.com,+1-695-878-2911,US,N45,Active,4.9,04/04/2023
+V1135,Myers-Barton,22-8387112,sales@vaughn.info,946-511-2545,CA,N30,approved,3.8,2019-04-02
+V1208,Thomas-Santiago,62-6676858,sales@adams.com,+1-842-504-3805x71983,U.S.,NET60,approved,2.6,2023-02-25
+V2021,Kane-Pollard,915394880,sales@armstrong.biz,7573662702,U.S.,NET30,New,,2021-04-27
+V1256,Freeman LLC,71-9819709,sales@kramer.info,001-930-565-2407x7848,USA,Net 45,INACTIVE,4.4,11/23/2021
+V1032,Combs PLC,67-3351868,sales@allen.com,001-437-645-2991,U.S.,NET45,A,3.0,2019-05-18
+V1197,Phelps LLC,19-9564488,sales@edwards.com,7227557941,US,Net 30,P,3.8,05/08/2013
+V1127,Kim Inc,24-8741810,sales@jacobs-austin.org,(850)347-7358x6629,CAN,N30,APPROVED,4.1,2012-06-15
+V1184,Nash and Sons,61-2167449,sales@holland.com,668-600-7229x034,IN,NET30,APPROVED,4.4,"Sep 09, 2009"
+V1124,"Hernandez, Lee and Fox",76-7069650,sales@adams-sanders.com,(979)233-4101x6668,US,N60,APPROVED,4.4,2023-01-11
+V2025,"hernandez, martinez and weber",47-3135534,,778-996-1183x6736,US,NET30,APPROVED,,2023-01-15
+V1156,White Inc,39-8910069,sales@pratt.com,236-854-1951x80238,CN,N30,approved,4.0,08/05/2021
+V1049,Kane-Pollard,91-5394880,sales@armstrong.biz,7573662702,United States,Net 30,P,4.4,17.05.2021
+V1047,Walker Inc,36-6752576,sales@valentine-holland.com,448.346.7737x8263,US,N30,Active,4.2,12/03/2014
+V1117,David-Powers,74-9284509,sales@flores.biz,(887)833-4270,DE,N45,B,2.7,11/23/2009
+V1254,"Pineda, Meyer and King",40-9288312,sales@evans.com,836-550-2491,UK,N30,New,3.4,2021-11-02
+V3001,,98-6986539,christopher68@example.net,,USA,NET30,A,,2020-01-01
+V1214,"Miller, Davis and Bonilla",38-3307963,sales@ferguson.com,+1-261-438-6120x75011,CN,Net 30,Active,2.7,20110409
+V1064,Perry-Davis,88-6049101,sales@edwards-scott.com,+1-771-311-1615x28098,Mexico,45 days,B,3.9,2009-01-04
+V1265,Freeman Ltd,92-6068298,sales@johnston.com,3965105566,CN,Net 45,approved,3.1,2024-05-13
+V1092,"Higgins, Fox and Hammond",29-8306261,sales@jones.info,485.628.9226x801,CN,N30,approved,4.3,08/04/2023
+V1182,Mckinney-Powell,81-1440466,sales@suarez.com,9308705345,CA,Net 60,New,4.8,2024-07-21
+V1137,Hall-Sullivan,93-2347467,sales@lopez.biz,(309)437-9660x3341,U.S.,N30,A,4.6,2020-12-20
+V1207,"Reed, Chambers and Zavala",66-9792411,sales@hester.com,001-315-287-9968x460,USA,NET60,approved,4.0,03/01/2017
+V1266,"Delgado, Guzman and Smith",98-2005173,sales@reyes.net,001-325-583-2067,United States,Net 30,Active,3.6,2019-11-11
+V2015,Smith and Sons.,,sales@smith.net,001-642-352-4105x6481,UK,NET60,approved,,2020-12-08
+V1189,Delacruz PLC,95-6174418,sales@blackburn.net,768-846-0223,Mexico,30 days,Active,3.1,20220611
+V1002,"Santos, Gardner and Robinson",21-8078673,sales@ramirez.com,001-765-642-3511x615,MX,30 days,New,2.6,2013-11-27
+V1264,Stevens and Sons,36-7989166,sales@baker.com,744.919.6931,DE,NET60,APPROVED,4.1,2020-03-03
+V1226,"Hunt, Macdonald and Thomas",70-8526283,sales@scott.net,(899)404-1379x7723,Germany,Net 60,A,2.5,10/12/2010
+V1119,"Ramsey, Hansen and Mendoza",12-5521644,sales@turner-stout.com,717.639.3638,IN,NET60,A,2.6,2012-12-06
+V1158,Randolph Inc,15-1624315,sales@weaver.com,206-541-3836x70241,MX,Net 30,A,5.0,08/10/2011
+V3004,,10-7569981,kaylawilliams@example.com,,USA,NET30,A,,20200101
+V1200,"Barber, Olson and Alvarado",84-8531380,sales@cruz.org,7025877217,USA,Net 60,approved,4.1,"Jan 04, 2023"
+V1103,"Mendoza, Bennett and Frye",34-5970190,sales@barr-peterson.com,+1-749-973-3484x34437,CA,Net 30,INACTIVE,3.4,"Oct 13, 2015"
+V1099,Gordon-Duran,98-5081983,sales@bryan-hanson.org,521-865-5852,US,N30,Active,4.2,04/12/2017
+V1169,Brown-Hernandez,18-8990081,sales@stark.com,456-891-5452,Deutschland,Net 45,APPROVED,4.4,07/06/2020
+V1153,"Murphy, Willis and Hines",71-5951651,sales@becker.com,6314617990,USA,N30,New,4.5,07/04/2019
+V1066,Andrews-Aguirre,31-2422633,sales@villegas.net,2944024455,USA,30 days,approved,3.8,14.03.2023
+V1008,"Romero, Gonzalez and Brooks",47-2338687,sales@ryan.com,+1-357-901-5430x391,United States,Net 30,approved,4.7,11.07.2017
+V1242,Thomas Ltd,20-6501583,sales@kennedy.com,(472)288-5744x89061,CAN,N30,approved,3.3,08.07.2022
+V1149,"Elliott, Bishop and Martin",91-4189885,sales@bowen-fuller.com,(597)631-1219x65652,MX,Net 60,APPROVED,3.1,2023-10-15
+V1087,"Carter, Garcia and Murphy",24-3747534,sales@parker-morrison.biz,(275)370-5964,USA,NET30,Active,2.8,20090730
+V1220,Larsen-Taylor,27-5194357,sales@rivera.com,281.229.1428x3411,India,Net 30,New,4.1,2017-04-29
+V1168,Weaver-Thompson,51-1264762,sales@davis.org,708.470.5932,India,Net 30,Active,3.2,11/05/2011
+V1148,"Perez, Frazier and Smith",87-9333700,sales@cooper.com,413.361.1155x4262,DE,30 days,Blocked,4.4,01.03.2014
+V1191,Sanford-Reyes,32-3167376,sales@ferguson.com,6584300335,U.S.,NET45,approved,3.8,03/01/2014
+V1204,Vasquez Ltd,69-1688246,sales@griffith.com,363-973-5160,MX,N45,approved,4.8,10/28/2021
+V1186,Rogers LLC,82-2425342,sales@nguyen.com,228.930.9652,United States,N30,approved,2.9,2022-11-10
+V1277,Henry-Taylor,81-7133857,sales@perez.com,563-833-1279x757,U.S.,Net 30,B,3.0,"Jun 02, 2020"
+V1094,"David, Moore and Hopkins",21-5679639,sales@winters.com,2109943969,United States,N45,P,3.1,20190604
+V1042,"Wheeler, Carter and Hall",50-2217071,sales@campbell.com,493-661-8324x210,MX,30 days,A,3.6,2021-08-18
+V1057,Richardson-Curry,45-6891254,sales@richards-carson.com,337-909-8593,U.S.,NET60,pending,3.5,2021-01-10
+V1090,"Griffin, Davies and Mitchell",64-7217147,sales@gonzalez-taylor.com,427.715.5188x442,India,NET30,approved,3.8,"Aug 27, 2016"
+V1213,"Blackwell, James and Hogan",56-6181912,sales@cruz.com,5857887704,US,N30,approved,4.9,2016-08-31
+V1222,"Allen, Maynard and Holden",28-8339571,sales@martin.com,001-392-675-0373,U.S.,NET30,Blocked,4.9,24.12.2013
+V1250,"Price, Gray and Baker",67-4599894,sales@garrett-black.org,001-944-984-6312x241,U.S.,60 days,P,3.2,2020-01-07
+V2006,Moore-Haynes,771009594,sales@brennan-garrison.com,775.643.3036,DE,NET60,Active,,2018-12-20
+V1240,"Smith, Craig and Gray",33-9324908,sales@nguyen.com,(484)934-7955,China,NET45,APPROVED,3.4,2020-08-24
+V1244,Kelly-Nunez,91-1962308,sales@hampton-griffin.com,(494)772-2569x9611,Mexico,Net 30,Active,4.2,02/10/2018
+V2022,"collier, wright and davis",,,555.539.4237x3334,CN,NET45,APPROVED,,12/20/2016
+V1228,"Davis, Alvarez and Mendez",40-8043503,sales@rich.net,001-811-572-9806x86508,US,Net 60,approved,3.6,06/28/2011
+V1003,Blair PLC,81-4335942,sales@dudley.com,+1-649-359-3103,United States,60 days,A,3.5,01/28/2019
+V1206,Petty-Moon,53-2414808,sales@hill.com,522.669.8485x833,U.S.,N60,pending,4.1,2009-11-17
+V2024,Luna-Fuentes,86-6323376,sales@young.com,929.721.2779,MX,NET45,B,,"Sep 20, 2018"
+V1218,White PLC,70-4255051,sales@york.info,+1-581-341-4139x7552,U.S.,Net 30,approved,4.2,17.10.2021
+V1096,"Travis, Reed and Ross",43-6709938,sales@robertson-rodriguez.com,514.473.2104x696,U.S.,30 days,approved,4.7,2024-09-23
+V1230,Smith Ltd,55-5035998,sales@lane.net,6636565126,US,NET60,approved,3.5,2023-11-26
+V1162,Wilkins-Thompson,97-7162857,sales@bond-hawkins.net,417.512.1003,India,60 days,A,4.8,06/19/2023
+V1104,Castro-Michael,45-1763626,sales@hill.biz,(652)640-4157x4733,USA,NET30,A,3.9,"Aug 23, 2024"
+V1227,"Hoover, White and Keller",29-9854536,sales@jackson-jennings.info,+1-891-436-6210x388,USA,Net 45,approved,2.8,2015-06-19
+V1051,"Higgins, Malone and Brennan",26-1701771,sales@williamson.com,216.711.7240,CA,NET30,A,3.4,2009-11-23
+V1125,"Smith, Jackson and Porter",44-3198037,sales@newman-rivera.com,703.239.7401x48902,US,NET30,APPROVED,3.6,2024-08-30
+V1234,"Jackson, Johnson and Allen",52-3238241,sales@cantrell.com,001-765-766-9380x11848,U.S.,Net 30,Active,3.4,05.08.2016
+V1188,Ruiz Ltd,24-6791039,sales@hardy-hansen.com,+1-351-935-3465x54947,USA,Net 45,APPROVED,2.8,2024-03-18
+V1274,"Yu, Salazar and Garrett",56-7765480,sales@butler.com,(449)857-8232x98324,United States,NET30,New,2.6,02/24/2010
+V1114,Avila LLC,94-4318855,sales@nunez-stephens.net,(533)575-2431x0690,India,45 days,approved,2.8,01/16/2014
+V1080,Miller-Martin,95-7783308,sales@whitehead-hernandez.biz,737-550-6068,US,30 days,approved,4.6,2011-11-12
+V1019,Wise-Walsh,43-9398441,sales@martin-ramos.biz,+1-401-812-8059,US,30 days,A,3.8,2011-05-22
+V1185,Woodard-York,58-8043620,sales@king-owens.net,+1-369-910-8589x944,United States,Net 45,Active,3.4,20170420
+V1036,Peterson-Beard,46-8096887,sales@beard.com,236-378-3777,CN,60 days,New,4.2,2019-12-01
+V1146,"Lane, Knight and Washington",23-4979651,sales@shannon-farmer.com,570-412-7706,United Kingdom,Net 45,pending,3.9,2021-11-22
+V1005,"Nguyen, Tate and Brown",23-2556017,sales@trujillo.com,639-453-7672,United States,Net 45,New,2.7,09/18/2016
+V1269,Huerta PLC,41-3363534,sales@hanson-alexander.com,652.211.0392,United States,30 days,A,2.6,2017-08-13
+V1078,"Anderson, Bennett and Martin",58-9002392,sales@wise.info,5656379473,India,30 days,New,4.9,13.09.2015
+V1074,Carpenter-Best,76-9130188,sales@huang.com,997-982-0715x18203,India,Net 30,APPROVED,3.2,2010-09-27
+V1063,"Hernandez, Martinez and Weber",47-3135534,sales@kelley.net,778-996-1183x6736,United States,N30,A,3.6,03.07.2017
+V1247,Perez-Rojas,14-3574265,sales@sims-anderson.com,9054577848,United States,NET45,Blocked,4.9,05/06/2017
+V1157,Wiley LLC,92-2060605,sales@murphy-tran.com,(534)494-9375x973,U.S.,NET45,A,4.8,12.10.2015
+V1034,"Wood, Hunter and Peterson",40-3790237,sales@short-garcia.com,+1-672-762-8498x7769,IN,Net 45,INACTIVE,3.7,10/18/2013
+V2029,knight group,,sales@thomas.com,683-766-7525,Mexico,NET30,approved,,11/18/2023
+V1233,Wood PLC,18-6784825,sales@ramsey.org,+1-284-590-2770x3843,Deutschland,30 days,A,4.3,20230203
+V1160,"Decker, Nguyen and Chavez",29-7960607,sales@jones.com,001-991-621-2775x61853,China,30 days,Active,4.6,10/23/2022
+V1202,Mcgee-Smith,85-1942411,sales@gutierrez-hawkins.com,799-248-8375,Mexico,Net 30,New,3.8,2015-12-18
+V2018,sandoval-cunningham,30-8082668,sales@donovan-harris.com,946.324.7510,IN,NET60,APPROVED,,20250627
+V1152,Livingston Group,56-9906224,sales@mitchell.biz,001-561-488-9241x418,United States,Net 60,pending,4.8,20120909
+V1037,Walker-Holt,17-2022698,sales@beck-wood.net,356.485.5744x43135,U.S.,30 days,Active,2.6,2022-02-07
+V1249,"Ochoa, Charles and Cooper",13-4121368,sales@nichols-watts.info,001-874-806-4930x85368,US,NET45,B,3.8,08/07/2021
+V1130,"Meyer, Jennings and Jackson",63-6702160,sales@turner-snyder.com,(564)964-7154,IN,NET60,APPROVED,3.2,20090122
+V1262,Sparks PLC,84-3586950,sales@wagner-sandoval.net,+1-575-858-5566x593,Mexico,N30,A,4.1,20220729
+V1026,"Horton, Snyder and Sanchez",76-8574680,sales@watts.com,001-763-928-7083x17278,Mexico,NET30,Active,3.1,2010-06-09
+V1150,"Miller, Tran and Greene",22-1661401,sales@mitchell.com,989.883.6403,DE,30 days,A,4.5,"Oct 01, 2009"
+V1195,"Higgins, Wilson and Wilson",98-7070880,sales@jimenez.com,001-548-235-6420x87375,India,Net 30,Active,3.6,20110518
+V1107,Evans PLC,90-1899411,sales@hebert.com,988.672.8743x152,United States,30 days,A,2.9,08/16/2021
+V1029,Molina-Castaneda,26-8930103,sales@medina-navarro.org,873.446.7065,Mexico,Net 30,A,4.5,"Feb 17, 2018"
+V2012,Richard LLC.,57-5816353,sales@saunders.com,001-371-213-0554x885,United States,NET30,approved,,"Nov 10, 2018"
+V1187,Green-Barnes,66-8113787,sales@doyle-aguilar.org,453.687.5842,United States,N45,Active,4.0,2018-04-16
+V1004,Delacruz Group,10-3678638,sales@chavez-flowers.com,(653)541-9283x276,CA,Net 45,New,3.4,2012-06-27
+V1118,"Moreno, Price and Scott",87-5200476,sales@lucas-nielsen.com,383-504-6990,China,NET30,approved,2.7,20240215
+V2011,Leblanc Maldonado and Allen,996183902,sales@wheeler-thompson.info,001-885-252-4140,US,NET30,A,,20190416
+V1071,"Stevens, Norris and Cox",41-3036059,sales@richard-sanchez.org,(581)764-5352x1818,Canada,NET45,approved,2.8,06/04/2019
+V2005,White Inc,39-8910069,sales@pratt.com,236-854-1951x80238,CN,NET30,approved,,2020-07-25
+V1183,"Leblanc, Maldonado and Allen",99-6183902,sales@wheeler-thompson.info,001-885-252-4140,U.S.,Net 30,Active,3.4,2013-01-26
+V2007,poole plc,37-5440025,,887-913-9718x70728,CN,NET30,APPROVED,,20200101
+V1143,"Taylor, Clark and Clark",69-5261032,sales@hudson.com,+1-282-654-4948x126,China,N45,Active,3.1,03/18/2009
+V1181,Cameron-Garrison,23-6873938,sales@garcia.info,001-454-369-1373x67850,MX,Net 60,approved,3.4,2015-04-02
+V1239,Walker-Ray,25-7174337,sales@fox.info,+1-908-756-2718,India,N45,A,4.7,2018-11-12
+V2002,WEST-COX,94-3090865,sales@rodriguez.com,001-384-770-0766x1771,China,NET30,A,,"Mar 20, 2017"
+V1082,Scott and Sons,43-7360307,sales@bentley.com,341.903.6971,IN,Net 30,approved,3.0,"May 01, 2016"
+V1067,Knight Group,40-6207974,sales@thomas.com,683-766-7525,MX,N30,Active,4.5,2012-04-22
+V1163,Watson-Mccoy,34-3049499,sales@miller.com,9132721510,U.S.,N45,A,2.7,2013-10-04
+V2004,Vang-Brooks.,60-1454696,,(220)347-2779,UK,NET30,A,,2020-03-03
+V1112,"Brown, Ford and Roman",62-8558197,sales@johnson.com,001-910-265-1801,CAN,Net 60,Active,3.7,2009-09-25
+V1192,Reyes PLC,55-2209226,sales@jackson-colon.com,878-298-5625x7532,CA,NET45,New,4.7,20091213
+V1109,Finley-Turner,76-7381684,sales@berry.com,6177426841,CAN,N45,A,4.8,2015-09-02
+V2010,"phillips, wright and jones",75-5587308,,001-365-451-1047x5412,United States,NET45,Active,,20220317
+V1033,Lane LLC,66-2642635,sales@byrd.com,793-814-9190,USA,30 days,Blocked,4.1,02/15/2021
+V1050,Garcia-Lozano,24-2262382,sales@bowen.com,874-759-6158,Deutschland,NET30,approved,3.9,04/13/2017
+V1055,Fields PLC,70-4731818,sales@byrd-le.com,+1-410-547-0952x1456,USA,N30,P,4.5,04/29/2019
+V1043,"Curry, Carroll and Roberts",37-9487336,sales@harrison.biz,288-377-1906x594,United Kingdom,Net 30,A,2.8,30.10.2016
+V1045,Harrison Group,93-9874152,sales@morris-garcia.com,267-946-8071x54516,Deutschland,30 days,A,4.2,06/10/2021
+V1205,Barrett-Blanchard,70-9411547,sales@maynard.net,001-708-869-7829x2216,Mexico,N30,APPROVED,4.9,08.02.2019
+V1031,Rogers-Hobbs,22-2016911,sales@walton-decker.com,270-580-5310,Mexico,N45,Blocked,4.3,2011-06-15
+V1276,Lopez PLC,89-2993318,sales@adams.com,705.417.2897,DE,N30,APPROVED,4.9,2017-11-01
+V1159,"Gutierrez, Huang and Ellis",27-7520395,sales@miller.biz,799-806-2344,United States,45 days,pending,3.4,2024-08-15
+V1167,"Velasquez, Stark and Brown",32-2844258,sales@johnston.com,(423)595-5905,UK,NET30,A,2.8,20170113
+V1133,Guerra-Jones,59-4918527,sales@chambers-taylor.com,842.866.1797,UK,NET45,APPROVED,2.6,2019-08-11
+V1175,Colon-Weber,37-8215376,sales@gonzalez-johnson.com,+1-441-771-4677x4186,India,N45,A,4.7,2018-04-13
+V1129,Cole-Peters,59-4197911,sales@garcia-davis.net,399-556-0466,United States,N60,Active,3.8,24.01.2012
+V1009,Spence PLC,56-3728882,sales@anderson.net,(848)796-3834,United States,N30,A,3.4,13.01.2024
+V1219,Harvey-Mccullough,46-7406756,sales@tucker-murphy.com,001-592-899-5562x053,GB,NET60,A,3.8,2012-08-20
+V2017,"griffin, davies and mitchell",64-7217147,sales@gonzalez-taylor.com,427.715.5188x442,IN,NET30,A,,"Jul 27, 2023"
+V2013,Howe King and Nixon,15-1476028,,490-382-4043x3504,U.S.,NET30,Blocked,,2018-01-12
+V1177,Cardenas-Barnes,97-8956894,sales@mcdaniel.com,441.460.8989x9217,USA,30 days,Blocked,2.7,20101201
+V1252,Snyder LLC,50-6828829,sales@collins-lloyd.com,505.612.0461x872,United Kingdom,30 days,New,3.9,2015-07-07
+V1268,Pearson-Gonzalez,57-9639932,sales@shea.com,001-265-691-1665x53559,GB,NET60,APPROVED,2.8,2014-06-04
+V1224,"Gray, Matthews and Villanueva",57-4767135,sales@black.com,665.557.7908x27231,USA,NET30,Blocked,3.3,2011-03-23
+V1275,Douglas PLC,80-5841933,sales@stewart.net,001-512-352-0566x4742,CA,Net 30,Active,3.5,2019-02-07
+V1138,Nguyen-Ellis,72-1602286,sales@lambert-burns.com,+1-369-469-1557x924,United States,NET60,Active,2.7,02/27/2023
+V2026,Carlson-Mcdonald.,907067228,sales@maddox-valencia.com,+1-318-645-1462x70482,USA,NET60,A,,08/28/2016
+V1278,Parsons-Franklin,14-3299088,sales@cortez-long.org,+1-888-208-1770x388,US,NET30,Active,4.5,2020-08-25
+V1237,"Collier, Wright and Davis",49-9646701,sales@goodman.com,555.539.4237x3334,China,NET45,APPROVED,5.0,"Mar 07, 2021"
+V1196,Powers Inc,77-2319479,sales@caldwell.net,314-437-4470,U.S.,N45,Active,4.7,08/13/2016
+V1142,"Carson, Williams and Ball",20-7418028,sales@robinson.com,807-445-1713x3959,IN,NET60,APPROVED,4.2,2020-02-29
+V1059,"Garcia, Burns and Russell",54-6262632,sales@johnson-wood.info,935.315.8506x431,U.S.,NET45,A,4.0,"Jun 21, 2020"
+V2001,"Webb, Alvarez and Kim  ",,,7518238282,U.S.,NET30,A,,07/13/2021
+V1259,Conley and Sons,48-3762487,sales@russo.com,531.309.6789x9405,India,N30,Active,3.3,2024-11-28
+V1139,Wilson-Torres,39-2516313,sales@brooks.net,(969)629-6627x8282,Germany,N45,Active,4.9,2023-03-20
+V1089,Watson-Hines,99-6059717,sales@taylor.com,610.627.8681,IN,60 days,A,4.5,2021-09-11
+V2030,"Allen, Armstrong and Graves  ",71-5638893,sales@smith.biz,(563)768-9702,U.S.,NET60,Active,,"Dec 06, 2022"
+V1022,Rasmussen LLC,49-5017343,sales@may-ross.net,301-842-9401x96556,U.S.,30 days,Active,3.1,2021-09-22
+V1231,"Henderson, Diaz and Hill",56-2135470,sales@sanders.net,525.988.7449x5621,MX,60 days,Active,3.9,2020-05-21
+V1171,"Cunningham, Zuniga and Taylor",71-7738019,sales@miller.com,001-257-804-3315x410,UK,N45,approved,4.2,2019-12-31
+V1179,Stone-Stark,62-6932391,sales@buchanan.org,761.862.2999x11914,CA,NET45,Active,4.7,2010-02-26
+V1273,Sutton-Kelly,86-8895137,sales@young-good.net,304-860-8432x562,United States,NET30,A,3.8,05/31/2011
+V1271,"Escobar, Rose and Scott",75-8831858,sales@campbell.org,507-801-6451x046,Germany,45 days,A,4.7,2020-02-27
+V1267,Roberts-Foster,28-6244264,sales@rogers.org,001-508-964-1686x2278,United States,NET30,Active,4.3,09/30/2016
+V1145,Perkins-Melton,64-5195951,sales@davis.com,686-736-3745,United Kingdom,N45,APPROVED,4.6,2013-06-20
+V1069,Walker PLC,59-9294272,sales@smith.com,001-724-345-1076x22683,CAN,NET45,A,3.1,20230919
+V1058,"Turner, Ortiz and Taylor",43-3995870,sales@torres.com,438-826-7586,USA,Net 60,A,4.9,2014-12-15
+V1203,Richard LLC,57-5816353,sales@saunders.com,001-371-213-0554x885,US,N30,approved,4.1,2011-01-10
+V1120,Owens-Wong,45-4044882,sales@green-hunt.info,217.653.5560x932,United States,60 days,A,3.6,"Jan 12, 2020"
+V1113,Ortiz-Mack,99-8617381,sales@good.biz,466.518.2512x868,U.S.,30 days,APPROVED,4.2,20141208
+V2016,Johnson Schmitt and Miles,593551903,,+1-552-990-9656x10143,Germany,NET45,P,,2016-02-15
+V1012,Owens-Daniel,39-1538552,sales@valdez.com,633-938-7262,IN,30 days,New,3.5,27.06.2010
+V1115,Garcia Inc,28-2198058,sales@harper-warner.com,606.573.8302,Mexico,Net 30,Blocked,2.9,25.11.2015
+V1257,"Lopez, Bailey and Oconnor",92-2244282,sales@dillon-george.net,(918)227-4485,USA,NET45,B,3.7,2020-08-09
+V1209,"Mueller, Lindsey and Roberts",22-7485471,sales@williams.com,+1-500-543-9735,MX,Net 30,approved,3.1,2023-09-23
+V1258,"Hunter, Gross and Andrade",80-4052834,sales@vincent.com,+1-386-338-7829x45651,U.S.,N30,P,3.6,2010-03-30
+V1095,"Gardner, May and Turner",53-1481506,sales@ballard.biz,771-702-7677x3592,CAN,N45,APPROVED,4.6,"Jan 29, 2013"
+V1270,Benson-Rodriguez,30-6493461,sales@ruiz-rivera.net,238.884.8792,India,N60,approved,4.3,"Apr 05, 2013"
+V1100,"Williams, Williams and Reeves",64-6549757,sales@stone-hernandez.net,(759)952-6949,U.S.,30 days,approved,4.3,"Jan 29, 2015"
+V1140,Lopez Group,31-6024207,sales@brown.com,968.487.6767,DE,30 days,approved,2.6,2010-04-05
+V1165,Andrade-Mendoza,80-4475523,sales@ramirez.biz,983.780.6578,India,N60,APPROVED,3.0,03/24/2014
+V1024,"Martinez, Fisher and Bentley",31-5446912,sales@adkins.biz,+1-904-943-6995,Mexico,Net 60,B,4.7,2018-06-29
+V1068,"Carlson, Ware and Moore",70-2221854,sales@williams.biz,997.664.3815x6149,U.S.,Net 45,APPROVED,3.5,2023-02-16
+V1236,"Li, Andrews and Benson",68-1620485,sales@hart-carrillo.com,001-777-290-7141x63356,USA,Net 30,pending,3.0,06/23/2013
+V1245,Edwards Ltd,96-3684131,sales@page-jacobs.biz,675-398-7622x023,United States,NET30,pending,2.9,18.08.2022
+V1121,"Donovan, Riley and Butler",62-6591986,sales@gonzalez.biz,001-437-785-4777,GB,30 days,A,4.2,2012-08-10
+V1102,"Allen, Armstrong and Graves",71-5638893,sales@smith.biz,(563)768-9702,U.S.,Net 60,Active,4.9,07.10.2020
+V1201,Cordova-Williams,50-3532644,sales@pierce.biz,717.379.7177,U.S.,Net 45,INACTIVE,2.7,20181202
+V1079,Mckee-Lee,63-4700025,sales@valentine.com,001-368-386-2392x40758,Deutschland,45 days,New,3.0,2018-10-11
+V1030,Calhoun-Hooper,65-6944126,sales@johnson.com,562-972-0465,US,N45,Active,3.5,"Mar 20, 2010"
+V1217,"Baxter, Thomas and Williams",56-4985095,sales@carlson.com,653.568.2223,Deutschland,Net 45,A,4.0,2019-01-26
+V3005,,82-1543292,jessica74@example.net,,USA,NET30,A,,2020-01-01
+V1021,Moore-Haynes,77-1009594,sales@brennan-garrison.com,775.643.3036,Deutschland,N60,Active,3.3,2009-06-09
+V1075,"Mills, Moore and Watson",52-6363836,sales@hughes-schroeder.org,4517518644,Deutschland,60 days,APPROVED,2.7,2012-05-20
+V1279,"Hughes, Hubbard and Estes",75-3345135,sales@carter.com,001-347-426-4908x27718,United States,N30,APPROVED,4.8,2016-02-23
+V1044,Hayden PLC,57-5781295,sales@sampson.com,001-802-978-7429,CN,30 days,P,3.6,2021-03-09
+V1053,Estrada-Nolan,40-3726327,sales@santana-byrd.com,575-894-6474,GB,N30,A,4.7,23.07.2009
+V1007,Carlson-Mcdonald,90-7067228,sales@maddox-valencia.com,+1-318-645-1462x70482,USA,Net 60,A,3.0,2010-07-24
+V1251,Graves-Vasquez,19-8584017,sales@smith-williams.net,3214442703,U.S.,NET30,A,4.7,2018-12-26
+V1261,Hardy PLC,90-6080553,sales@lopez-fox.com,001-828-386-1957,CN,NET60,A,3.8,2020-04-10
+V1123,"Little, Peck and Durham",61-9633492,sales@freeman.com,3843840862,United States,NET30,APPROVED,4.1,2021-03-03
+V1154,Smith and Sons,38-7667458,sales@smith.net,001-642-352-4105x6481,GB,60 days,Active,3.4,2017-11-07
+V1161,Baker-Wilson,14-7216461,sales@aguirre.org,2356213568,US,N30,Blocked,3.6,2014-04-19
+V1255,Novak PLC,80-3177199,sales at alvarez.com,427.319.5005,US,60 days,P,4.7,20100623
+V1211,Owens-Pineda,93-7575963,sales@hernandez.org,5944798515,CN,30 days,A,4.0,2010-11-26
+V1076,Aguilar and Sons,37-2077581,sales@collins-douglas.biz,(391)848-6528,US,Net 45,approved,3.5,2021-03-04
+V1023,"Lee, Williams and Graham",72-2161193,sales@frost.com,(861)659-5148x465,China,Net 60,A,4.4,18.11.2011
+V1110,"Walker, Bernard and Mendoza",49-2010496,sales@adkins-obrien.biz,001-387-383-3918x785,IN,60 days,B,4.9,03/24/2011
+V2020,"Avery, Garcia & Romero",70-1730386,sales@owen-mendez.com,(360)612-7961,CAN,NET45,APPROVED,,04/01/2025
+V1093,Martin Ltd,78-9111742,sales@reed.com,343-484-2498,U.S.,45 days,pending,3.6,2022-04-16
+V1014,Martin Inc,41-5408072,sales@baker-bowers.info,268-272-3430x9805,U.S.,60 days,Active,3.6,"Feb 02, 2022"
+V3006,,50-4706007,davidanderson@example.org,,USA,NET30,A,,01/01/2020
+V1126,Matthews Ltd,90-5014745,sales@hickman-evans.org,796.285.6218,United States,Net 30,A,3.3,2009-04-23
+V1216,Reilly-Rodriguez,30-4034091,sales@turner.info,(760)272-8326x8424,U.S.,60 days,A,4.5,2012-09-18
+V1141,Cunningham and Sons,28-5096953,sales@johnson-walker.com,(679)778-8191,US,N60,APPROVED,3.5,2024-04-17
+V1147,"Turner, Baxter and Mcdowell",12-7640518,sales@pena.com,(320)464-3611x037,US,N30,APPROVED,2.5,2024-05-20
+V1101,"Hart, Wells and Smith",34-6294016,sales@nunez-whitney.org,809-474-9930x9728,United States,N30,Active,4.4,24.06.2024
+V1013,Baxter Inc,50-4567281,sales@morton-chase.com,5808132677,U.S.,N45,B,3.5,"Jun 03, 2023"
+V2019,thomas-santiago,62-6676858,,+1-842-504-3805x71983,US,NET60,Active,,2021-08-23
+V1061,Garrison-Thomas,97-4305700,sales@fernandez.com,+1-302-305-3950x24026,Canada,Net 30,New,3.6,"Nov 25, 2023"
+V1077,"Cox, Cox and White",63-7534336,sales@peterson.com,222.714.1888,USA,Net 60,approved,4.9,06/10/2009
+V1073,"Stewart, Gonzales and Harrison",67-3670226,sales at turner.net,347-870-0541,United States,Net 45,INACTIVE,3.6,2014-07-19
+V1260,Conrad and Sons,76-5765539,sales@henry.com,(586)350-9480x141,United States,30 days,Blocked,3.1,20230331
+V2027,combs plc,67-3351868,sales@allen.com,001-437-645-2991,USA,NET45,APPROVED,,2015-10-25
+V1210,Cole-Lucero,29-6592886,sales@lopez.net,660-264-8422,United Kingdom,30 days,Active,4.0,03/04/2012
+V1098,Campbell PLC,98-8987516,sales@chambers.com,(624)356-5060x98358,United States,45 days,Active,3.6,2009-05-22
+V1106,"Gonzalez, Maynard and Morris",16-5235884,sales@brown.com,+1-602-262-0672,US,NET45,Active,2.8,2010-06-20
+V1170,"Yu, Banks and Thompson",38-1727544,sales at steele.com,+1-792-564-4220x96902,CA,Net 60,approved,3.3,06/07/2023
+V2008,WEAVER-THOMPSON,,sales@davis.org,708.470.5932,India,NET30,APPROVED,,2020-08-05
+V1028,"Miller, Hernandez and Reyes",14-6543670,sales@mccarthy.biz,(258)776-0366x90967,U.S.,30 days,APPROVED,3.8,04/01/2015
+V1081,Vang-Brooks,60-1454696,sales@flores.com,(220)347-2779,GB,N30,Active,4.1,20120117
+V1223,Young-Barnett,13-7960815,sales@velez.info,4058184498,IN,NET30,P,3.5,2017-05-22
+V1085,Brown Group,41-4344717,sales@carter.com,5546868740,USA,N30,APPROVED,4.1,2014-05-09
+V1221,"Riley, Hammond and Lewis",76-3091745,sales@arnold.net,725.263.9427x8816,CAN,N30,A,2.7,2012-08-06
+V1016,Sandoval-Cunningham,30-8082668,sales@donovan-harris.com,946.324.7510,IN,60 days,approved,2.7,2017-07-24
+V1248,"Ryan, Garza and Bryant",27-9882862,sales@fields.net,257-283-1745x6424,USA,30 days,Active,3.5,2023-07-28
+V1174,Terry-Bowen,65-2663938,sales@fernandez.com,8693872050,USA,NET30,Active,4.6,2023-08-08
+V1048,Barton-Dickerson,16-2548511,sales@villa-romero.com,849-997-2787x5588,CAN,45 days,approved,4.6,28.12.2009
+V1039,Tran Ltd,18-4946066,sales@little.com,6949777520,IN,NET45,Active,2.8,"Oct 11, 2021"
+V1083,"Herrera, Chen and Andrews",45-8072684,sales@thomas.com,001-262-818-5188,United States,N30,New,4.6,07/20/2019
+V2009,Aguilar and Sons,37-2077581,sales@collins-douglas.biz,(391)848-6528,United States,NET45,A,,2015-12-26
+V1088,"Walsh, Cox and Owen",58-7654757,sales@moore.info,4219355690,China,N30,Active,2.7,20240628
+V1176,Wood-Griffin,63-2595275,sales@gonzales-baker.com,001-502-211-5869,United States,30 days,approved,3.6,12/02/2023
+V2003,Walker Inc  ,36-6752576,sales@valentine-holland.com,448.346.7737x8263,US,NET30,A,,20250224
+V1054,Rodriguez-James,62-5163555,sales at andrews-haney.com,5647090974,United States,NET30,INACTIVE,2.9,2024-09-23
+V1134,"Johnson, Schmitt and Miles",59-3551903,sales@wheeler.com,+1-552-990-9656x10143,DE,NET45,P,4.9,2011-11-01
+V3003,,98-5941179,ariana22@example.org,,USA,NET30,A,,2020-01-01
+V1011,Jones-Young,58-5528972,sales@washington.org,001-773-876-3116,DE,60 days,Active,3.0,04/10/2016
+V1151,Allen Ltd,21-5951131,sales@jones.com,626-596-5827x10910,Canada,Net 30,A,4.4,"Dec 09, 2012"
+V1018,"Garcia, Humphrey and Baker",53-2871534,sales@newton.com,293-253-4874x0164,Deutschland,N30,pending,3.6,20190306
+V1038,Robinson Group,77-3641282,sales@hardy-bray.net,+1-641-234-3524x082,United States,N30,INACTIVE,4.9,2010-10-19
+V1232,"Avery, Garcia and Romero",70-1730386,sales@owen-mendez.com,(360)612-7961,CAN,NET45,Active,5.0,09/09/2014
+V1084,Williams-Hughes,54-4761823,sales@king-smith.com,(931)495-2058x527,United States,Net 30,APPROVED,4.5,2023-08-15
+V1116,"Johnston, Ray and Barton",46-8367772,sales@young-walter.net,964.240.8926,Canada,NET30,P,3.7,2015-10-28
+V1246,Jackson Inc,26-2127988,sales@brown.net,3068811492,Mexico,NET30,Active,4.4,2017-03-20
+V1052,Carter LLC,41-2724590,sales@thomas-schmidt.org,+1-622-921-9693x79237,China,Net 30,Active,4.5,2018-02-12
+V1193,Walker and Sons,19-6252285,sales@gross.net,(215)306-4890,US,60 days,A,3.6,2018-01-27
+V1280,"Pace, Horton and Taylor",48-6643410,sales@morris-johnson.info,001-337-914-5211,U.S.,Net 60,Blocked,4.6,2020-12-09
+V2023,ESTRADA-NOLAN,40-3726327,sales@santana-byrd.com,575-894-6474,UK,NET30,Active,,2021-09-30
+V1194,"Huff, Williams and Wilson",24-7795314,sales@james-kelley.info,001-823-304-6184x992,DE,NET30,approved,4.9,20121108
+V1253,Clayton-Martinez,99-3920762,sales@wright.com,471.283.7645,China,N30,pending,3.8,09/22/2011
+V1212,"Jones, Wagner and Perry",52-3144023,sales@powell.com,554-239-8780x15739,United States,NET60,A,2.7,"Jan 15, 2024"
+V3002,,85-3941912,nicholasjames@example.org,,USA,NET30,A,,2020-01-01
+V1215,Grant-Andrews,77-1633297,sales@bartlett.biz,266.350.6180x919,CA,Net 30,APPROVED,4.7,2022-11-11
+V1225,Lopez LLC,28-3308538,sales@love.com,001-417-477-3926x0302,IN,Net 30,approved,3.2,07.08.2019
+V1198,Wilson Group,92-3477824,sales@nelson-cruz.info,(821)720-2169x79729,CN,Net 30,APPROVED,2.8,"Sep 28, 2014"
+V1025,Lowe-Dixon,98-4374754,sales@jackson.org,813-543-3200x37917,United Kingdom,N30,B,3.5,25.01.2024
+V1001,"Rodriguez, Figueroa and Sanchez",45-5108603,sales@doyle.net,296-500-1338,MX,30 days,approved,2.8,20110420
+V1056,Buchanan LLC,39-4740036,sales@shaw.info,651-371-2368x5160,United States,NET30,New,4.2,12/09/2017
+V1132,Carter-Neal,79-7328534,sales@faulkner-casey.com,(546)951-9398x2807,US,N45,APPROVED,4.8,2013-03-26
+V1180,Reyes-Washington,55-2738129,sales@kennedy.org,+1-660-665-3074x505,UK,60 days,Active,3.8,06/21/2012
+V1035,Rivas Inc,31-7358113,sales@keith-sanchez.info,001-596-750-7527,India,NET30,Blocked,5.0,2014-12-13
+V1128,"Phillips, Wright and Jones",75-5587308,sales@moore-dawson.com,001-365-451-1047x5412,U.S.,N45,approved,4.6,2019-08-05
+V1108,"Lopez, Doyle and Gibbs",41-2987287,sales@craig.biz,(585)916-1227x53046,CN,N60,A,4.4,2022-08-07
+V1136,"Webb, Alvarez and Kim",93-3589751,sales@chavez.com,7518238282,USA,30 days,A,3.7,12/12/2014
+V1006,Mcgee PLC,68-9996414,sales@burgess-patterson.org,(353)828-7101x2269,MX,Net 30,New,4.9,2017-06-28
+V1229,Clarke-James,78-1275739,sales@ballard.org,862-647-3149,IN,Net 60,A,3.9,20120322
+V1172,Oconnor-Costa,20-6404139,sales@snyder-gray.net,(317)393-2710x4054,Deutschland,Net 60,approved,2.9,10/31/2011
+V1046,Brown-Stone,27-5437001,sales@avila.com,282-847-7109x324,U.S.,30 days,Active,4.7,2021-05-30
+V1086,Atkins-Williams,82-4656838,sales@rivera.biz,001-876-452-7758x4161,US,NET45,APPROVED,4.2,2017-04-10
+V1164,Glass Group,12-1848566,sales@foster.com,(632)944-7209x993,Mexico,30 days,APPROVED,3.1,2011-10-29
+V1178,Stokes and Sons,57-3182975,sales@henderson.biz,829.745.1168,US,60 days,A,2.6,06.08.2021
+V1122,Taylor PLC,46-7718473,sales@white-preston.com,701.200.6231x20387,U.S.,NET60,Active,2.6,12/23/2010
+V1040,Short Group,89-2375453,sales@jones-soto.com,(529)841-3186,United States,45 days,Active,4.1,2021-09-05
