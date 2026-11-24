@@ -2,13 +2,14 @@
 
 from __future__ import annotations
 
+from datetime import date
 from decimal import Decimal
 
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session, joinedload
 
 from opspilot.db.enums import CustomerInvoiceStatus, SOStatus
-from opspilot.db.models import CustomerInvoice, SalesOrder, Shipment, SOLine
+from opspilot.db.models import Customer, CustomerInvoice, SalesOrder, Shipment, SOLine
 from opspilot.erp.lookup import resolve_so
 
 
@@ -82,3 +83,45 @@ def sales_order_status(session: Session, so_ref: str | int) -> dict:
         "credit": credit,
         "summary": " ".join(parts),
     }  # fmt: skip
+
+
+def create_sales_order(
+    session: Session,
+    customer_code: str,
+    warehouse_ref: str,
+    lines: list[dict],
+    requested_date: date | None = None,
+) -> SalesOrder:
+    """Create a sales order; it goes on CREDIT_HOLD if open AR + order value > credit limit."""
+    from sqlalchemy import Integer, cast
+
+    from opspilot.erp import ERPError
+    from opspilot.erp.lookup import resolve_item, resolve_warehouse
+
+    cust = session.scalar(select(Customer).where(Customer.customer_code == customer_code))
+    if cust is None:
+        raise ERPError(f"Customer '{customer_code}' not found.")
+    wh = resolve_warehouse(session, warehouse_ref)
+    if wh is None:
+        raise ERPError("A shipping warehouse is required.")
+    so_lines = []
+    for n, spec in enumerate(lines, 1):
+        item = resolve_item(session, spec["item"])
+        price = spec.get("unit_price")
+        so_lines.append(SOLine(line_no=n, item_id=item.id, quantity=Decimal(str(spec["quantity"])),
+                               unit_price=Decimal(str(price)) if price is not None
+                               else item.list_price))  # fmt: skip
+    total = sum((ln.quantity * ln.unit_price for ln in so_lines), Decimal(0))
+    exposure = customer_open_ar(session, cust.id) + total
+    max_no = session.scalar(
+        select(func.max(cast(func.split_part(SalesOrder.so_number, "-", 2), Integer)))
+    )
+    so = SalesOrder(
+        so_number=f"SO-{(max_no or 20000) + 1}", customer_id=cust.id, warehouse_id=wh.id,
+        order_date=date.today(), requested_date=requested_date,
+        status=SOStatus.CREDIT_HOLD if exposure > cust.credit_limit else SOStatus.OPEN,
+        total_amount=total, lines=so_lines,
+    )  # fmt: skip
+    session.add(so)
+    session.flush()
+    return so

@@ -386,3 +386,59 @@ def three_way_match(session: Session, invoice_ref: str | int, *, persist: bool =
         "recommended_action": res.recommended_action,
         "summary": summary,
     }
+
+
+# --------------------------------------------------------------------------- goods receipt
+def post_goods_receipt(
+    session: Session, po_ref: str | int, lines: list[dict[str, Any]]
+) -> list[GoodsReceipt]:
+    """Post a GRN against PO lines: updates received qty, stock on hand and PO status.
+
+    ``lines`` = [{line_no, qty_received, qty_rejected}]
+    """
+    from datetime import UTC, datetime
+
+    po = resolve_po(session, po_ref)
+    if po.status not in (POStatus.APPROVED, POStatus.SENT, POStatus.PARTIALLY_RECEIVED):
+        raise ERPError(f"{po.po_number} is {po.status}; goods can only be received on open POs.")
+    by_no = {ln.line_no: ln for ln in po.lines}
+    max_no = session.scalar(
+        select(func.max(cast(func.split_part(GoodsReceipt.grn_number, "-", 2), Integer)))
+    )
+    grn_number = f"GRN-{(max_no or 70000) + 1}"
+    now = datetime.now(UTC)
+    out = []
+    for spec in lines:
+        ln = by_no.get(int(spec["line_no"]))
+        if ln is None:
+            raise ERPError(f"{po.po_number} has no line {spec['line_no']}.")
+        received = Decimal(str(spec["qty_received"]))
+        rejected = Decimal(str(spec.get("qty_rejected", 0)))
+        accepted = received - rejected
+        if accepted < 0:
+            raise ERPError("Rejected quantity cannot exceed received quantity.")
+        if ln.qty_received + accepted > ln.quantity:
+            raise ERPError(
+                f"Line {ln.line_no}: receiving {accepted:g} would exceed ordered {ln.quantity:g} "
+                f"(already received {ln.qty_received:g}). Over-receipts need buyer approval."
+            )
+        grn = GoodsReceipt(grn_number=grn_number, po_id=po.id, po_line_id=ln.id,
+                           warehouse_id=po.warehouse_id, qty_received=received,
+                           qty_rejected=rejected, received_at=now)  # fmt: skip
+        ln.qty_received = ln.qty_received + accepted
+        inv = session.scalar(
+            select(Inventory).where(
+                Inventory.item_id == ln.item_id, Inventory.warehouse_id == po.warehouse_id
+            )
+        )
+        if inv is None:
+            inv = Inventory(item_id=ln.item_id, warehouse_id=po.warehouse_id, qty_on_hand=0,
+                            qty_reserved=0, reorder_level=0, reorder_qty=0)  # fmt: skip
+            session.add(inv)
+        inv.qty_on_hand = (inv.qty_on_hand or 0) + accepted
+        session.add(grn)
+        out.append(grn)
+    po.status = (POStatus.RECEIVED if all(ln.qty_received >= ln.quantity for ln in po.lines)
+                 else POStatus.PARTIALLY_RECEIVED)  # fmt: skip
+    session.flush()
+    return out
