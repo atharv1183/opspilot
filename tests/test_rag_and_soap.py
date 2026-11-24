@@ -15,7 +15,8 @@ def test_chunking_keeps_title_and_section():
         + ("Long paragraph. " * 80 + "\n\n") * 3
     )
     chunks = chunk_markdown("my.md", md, max_chars=600)
-    assert chunks[0].content.startswith("My Policy\n")
+    assert chunks[0].content.startswith("My Policy > 1. Scope")
+    assert "Intro text." in chunks[0].content  # preamble merged into the first section
     assert any(c.section == "2. Rules" for c in chunks)
     assert all(c.content.startswith("My Policy > ") for c in chunks if c.section)
     assert len([c for c in chunks if c.section == "2. Rules"]) >= 3

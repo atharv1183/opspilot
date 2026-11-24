@@ -52,7 +52,7 @@ ignore = ["B008", "E501"]  # line length is handled by `ruff format`
 testpaths = ["tests"]
 pythonpath = ["src", "."]
 addopts = "-q"
-filterwarnings = ["ignore::DeprecationWarning:spyne.*", "ignore::SyntaxWarning"]
+filterwarnings = ["ignore::DeprecationWarning:spyne.*", "ignore:invalid escape sequence:DeprecationWarning", "ignore::SyntaxWarning"]
 
 [tool.ruff.lint.isort]
 known-first-party = ["opspilot", "migration", "eval"]

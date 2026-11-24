@@ -26,13 +26,18 @@ def _sections(markdown: str) -> tuple[str, list[tuple[str | None, str]]]:
     parts = re.split(r"^(#{2,3} .+)$", body, flags=re.MULTILINE)
     sections: list[tuple[str | None, str]] = []
     preamble = parts[0].strip()
-    if preamble:
-        sections.append((None, preamble))
     for i in range(1, len(parts), 2):
         heading = parts[i].lstrip("# ").strip()
         text = parts[i + 1].strip() if i + 1 < len(parts) else ""
         if text:
             sections.append((heading, text))
+    if preamble:
+        # metadata-only preambles (owner/version lines) are merged into the first section
+        # instead of becoming a low-information chunk of their own
+        if sections:
+            sections[0] = (sections[0][0], preamble + "\n\n" + sections[0][1])
+        else:
+            sections.append((None, preamble))
     return title, sections
 
 

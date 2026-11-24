@@ -1,0 +1,253 @@
+# OpsPilot evaluation set - 50 queries.
+#
+# Fields
+#   id               unique id (category prefix)
+#   query            the user message
+#   expected_tools   tools that must be called (subset match)
+#   expected_facts   key facts that must appear in the answer. Each entry is a string or a list of
+#                    acceptable alternatives. Matching is case-insensitive and ignores "$", ",",
+#                    "_" and "-" (so "PRICE_VARIANCE" matches "price variance").
+#   expected_docs    (RAG queries) SOP doc(s); retrieval hit@3 = any of them in the top-3 chunks
+#   approve          for write queries: auto-approve the human-in-the-loop interrupt
+#   requires_approval  the run must pause for approval before the write executes
+#
+# Ground truth comes from the deterministic legacy migration + seed (make seed). Write queries are
+# last so earlier answers are not affected by POs the agent creates. The runner resets
+# agent-created requisitions/POs before each run.
+
+queries:
+  # ------------------------------------------------------------------ inventory (5)
+  - id: inv-01
+    query: What is the stock level of ITM-1578 across all warehouses?
+    expected_tools: [get_inventory_level]
+    expected_facts: ["668", "61", "413"]
+  - id: inv-02
+    query: How many Pillow Block 6306 Pro do we have on hand in total?
+    expected_tools: [get_inventory_level]
+    expected_facts: ["2953"]
+  - id: inv-03
+    query: How much stock of ITM-1300 is in warehouse D?
+    expected_tools: [get_inventory_level]
+    expected_facts: ["1077"]
+  - id: inv-04
+    query: How much Hydraulic Oil ISO32 do we have in Dallas, and is it below the reorder level?
+    expected_tools: [get_inventory_level]
+    expected_facts: ["9", "20"]
+  - id: inv-05
+    query: How many Ball Bearing 6306 HD are in stock in Warehouse B?
+    expected_tools: [get_inventory_level]
+    expected_facts: ["48"]
+
+  # ------------------------------------------------------------------ low stock (4)
+  - id: low-01
+    query: Which items are below reorder level in Warehouse B?
+    expected_tools: [find_low_stock_items]
+    expected_facts: ["ITM-1088", "ITM-1578", "ITM-1598", "ITM-1277"]
+  - id: low-02
+    query: List the low stock items in WH-D.
+    expected_tools: [find_low_stock_items]
+    expected_facts: ["ITM-1084", "ITM-1012", "ITM-1388"]
+  - id: low-03
+    query: What is running low in our Atlanta warehouse?
+    expected_tools: [find_low_stock_items]
+    expected_facts: ["ITM-1293", "ITM-1596", "ITM-1301"]
+  - id: low-04
+    query: How many items are at or below their reorder level across all warehouses?
+    expected_tools: [find_low_stock_items]
+    expected_facts: ["18"]
+
+  # ------------------------------------------------------------------ purchase order status (5)
+  - id: po-01
+    query: What's the status of PO-10003?
+    expected_tools: [get_po_status]
+    expected_facts: ["closed", "INV-1002"]
+  - id: po-02
+    query: Has PO-10250 been fully received?
+    expected_tools: [get_po_status]
+    expected_facts: [["partially received", "partial"], "500", "1000"]
+  - id: po-03
+    query: Is PO-10012 approved yet?
+    expected_tools: [get_po_status]
+    expected_facts: [["pending approval", "pending"]]
+  - id: po-04
+    query: Who is the supplier on PO-10020 and when is it expected?
+    expected_tools: [get_po_status]
+    expected_facts: ["Stone-Stark", ["2026-10-15", "october 15"]]
+  - id: po-05
+    query: Has the delivery for PO-10005 arrived?
+    expected_tools: [get_po_status]
+    expected_facts: ["delivered"]
+
+  # ------------------------------------------------------------------ 3-way match (6)
+  - id: match-01
+    query: Why is invoice INV-1042 on hold?
+    expected_tools: [three_way_match]
+    expected_facts: ["price variance", "6.5%", "ITM-1598"]
+  - id: match-02
+    query: Explain the hold on supplier invoice INV-1017.
+    expected_tools: [three_way_match]
+    expected_facts: [["qty variance", "quantity variance", "quantity mismatch"], "550", "500"]
+  - id: match-03
+    query: Why can't we pay INV-1088 yet?
+    expected_tools: [three_way_match]
+    expected_facts: [["no receipt", "no grn", "nothing has been received", "not been received", "goods receipt"], "PO-10001"]
+  - id: match-04
+    query: Does invoice INV-1050 match its purchase order and goods receipt?
+    expected_tools: [three_way_match]
+    expected_facts: [["matched", "within tolerance"]]
+  - id: match-05
+    query: Run a 3-way match on INV-1013.
+    expected_tools: [three_way_match]
+    expected_facts: ["price variance", ["4.0%", "4%"]]
+  - id: match-06
+    query: INV-1042 is on hold. What does our policy say we should do about it?
+    expected_tools: [three_way_match, search_sop_docs]
+    expected_facts: ["price variance", "credit note"]
+    expected_docs: [three-way-match-tolerance.md]
+
+  # ------------------------------------------------------------------ sales order status (5)
+  - id: so-01
+    query: What's the status of sales order SO-20010?
+    expected_tools: [get_sales_order_status]
+    expected_facts: [["partially shipped", "partially_shipped", "partial"], "10", "60"]
+  - id: so-02
+    query: Has the customer paid for SO-20025?
+    expected_tools: [get_sales_order_status]
+    expected_facts: ["CINV-60011", "paid"]
+  - id: so-03
+    query: Why is SO-20006 on credit hold?
+    expected_tools: [get_sales_order_status]
+    expected_facts: ["credit limit", "3164"]
+  - id: so-04
+    query: What is the tracking number for SO-20050?
+    expected_tools: [get_sales_order_status]
+    expected_facts: ["FED3062046340"]
+  - id: so-05
+    query: What's the status of SO-20003 and its invoice?
+    expected_tools: [get_sales_order_status]
+    expected_facts: ["CINV-60003", "overdue"]
+
+  # ------------------------------------------------------------------ available to promise (5)
+  - id: atp-01
+    query: Can we promise 120 units of ITM-1088 by 2026-12-20?
+    expected_tools: [check_available_to_promise]
+    expected_facts: [["yes", "can be promised", "can promise", "we can"], "217"]
+  - id: atp-02
+    query: Can we deliver 1000 units of ITM-1578 by 2026-12-15?
+    expected_tools: [check_available_to_promise]
+    expected_facts: [["no", "cannot", "can't", "not"], "643"]
+  - id: atp-03
+    query: What is the available-to-promise quantity for 500 Pillow Block 6306 Pro by Dec 1 2026?
+    expected_tools: [check_available_to_promise]
+    expected_facts: ["3863"]
+  - id: atp-04
+    query: Can we ship 50 meters of ITM-1300 from warehouse D by 2026-12-05?
+    expected_tools: [check_available_to_promise]
+    expected_facts: ["1077"]
+  - id: atp-05
+    query: Can we promise 5000 units of ITM-1200 by 2026-12-01?
+    expected_tools: [check_available_to_promise]
+    expected_facts: [["no", "cannot", "can't", "not"], "3863"]
+
+  # ------------------------------------------------------------------ supplier quotes via SOAP (4)
+  - id: quote-01
+    query: Get supplier quotes for 100 units of ITM-1200.
+    expected_tools: [get_supplier_quote]
+    expected_facts: ["SUP-0096", "142.20"]
+  - id: quote-02
+    query: Who is the cheapest approved supplier for 500 Ball Bearing 6306 HD?
+    expected_tools: [get_supplier_quote]
+    expected_facts: ["SUP-0120", "33.01"]
+  - id: quote-03
+    query: What's the best price for 20 meters of ITM-1300 from our suppliers?
+    expected_tools: [get_supplier_quote]
+    expected_facts: ["SUP-0063", "83.93"]
+  - id: quote-04
+    query: Get quotes for 500 units of ITM-1450. Is the cheapest supplier approved?
+    expected_tools: [get_supplier_quote]
+    expected_facts: ["SUP-0004", "pending", "SUP-0120"]
+
+  # ------------------------------------------------------------------ SOP / policy RAG (11)
+  - id: sop-01
+    query: Who needs to approve a purchase order of $30,000?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["procurement manager"]
+    expected_docs: [approval-limits.md]
+  - id: sop-02
+    query: What is the price tolerance for the 3-way match before an invoice goes on hold?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["2%"]
+    expected_docs: [three-way-match-tolerance.md]
+  - id: sop-03
+    query: How often do we cycle count A-class items?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["monthly"]
+    expected_docs: [inventory-cycle-count.md]
+  - id: sop-04
+    query: Are we allowed to issue a PO to a supplier whose status is PENDING?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["approved"]
+    expected_docs: [procurement-policy.md, supplier-onboarding.md]
+  - id: sop-05
+    query: What restocking fee applies to non-defective customer returns?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["15%"]
+    expected_docs: [returns-policy.md]
+  - id: sop-06
+    query: What are the steps to onboard a new supplier?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["bank", "tax"]
+    expected_docs: [supplier-onboarding.md]
+  - id: sop-07
+    query: When does a sales order get put on credit hold?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["credit limit"]
+    expected_docs: [credit-management.md]
+  - id: sop-08
+    query: How quickly must the warehouse post a goods receipt after a delivery arrives?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["24 hours"]
+    expected_docs: [goods-receipt-procedure.md]
+  - id: sop-09
+    query: How is the reorder point calculated according to our replenishment policy?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["lead time", "safety stock"]
+    expected_docs: [inventory-replenishment.md]
+  - id: sop-10
+    query: What is our procedure for handling duplicate supplier records in a data migration?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["tax id"]
+    expected_docs: [master-data-governance.md, supplier-onboarding.md]
+  - id: sop-11
+    query: Who approves an inventory cycle count adjustment worth $2,500?
+    expected_tools: [search_sop_docs]
+    expected_facts: ["finance controller"]
+    expected_docs: [inventory-cycle-count.md, approval-limits.md]
+
+  # ------------------------------------------------------------------ write actions (5, run last)
+  - id: write-01
+    query: Create a purchase requisition for 80 units of ITM-1277 for warehouse B.
+    expected_tools: [create_purchase_requisition]
+    expected_facts: ["PR-", "ITM-1277"]
+  - id: write-02
+    query: Create a purchase requisition for 300 units of Gear Pump 200bar for warehouse A.
+    expected_tools: [create_purchase_requisition]
+    expected_facts: ["PR-", "ITM-1301"]
+  - id: write-03
+    query: Create a requisition for 40 units of ITM-1596 in WH-C and a PO with the cheapest approved supplier.
+    expected_tools: [create_purchase_requisition, get_supplier_quote, create_purchase_order]
+    expected_facts: ["PO-"]
+    approve: true
+    requires_approval: true
+  - id: write-04
+    query: Which items are below reorder level in Warehouse B, and draft POs for them from the cheapest approved supplier.
+    expected_tools: [find_low_stock_items, create_purchase_requisition, get_supplier_quote, create_purchase_order]
+    expected_facts: ["PO-", "SUP-0123"]
+    approve: true
+    requires_approval: true
+  - id: write-05
+    query: Raise requisitions and purchase orders for the low stock items in warehouse D using the cheapest approved suppliers.
+    expected_tools: [find_low_stock_items, create_purchase_requisition, get_supplier_quote, create_purchase_order]
+    expected_facts: ["PO-"]
+    approve: true
+    requires_approval: true

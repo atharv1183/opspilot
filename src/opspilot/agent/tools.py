@@ -270,9 +270,8 @@ def search_sop_docs(query: str) -> dict:
     with session_scope() as s:
         hits = search(s, query, get_settings().rag_top_k)
     docs = unique_docs(hits)
-    top = hits[0] if hits else None
-    summary = (f"Most relevant: [{top.doc_name}] {top.content[:700]}" if top
-               else "No matching SOP documents.")  # fmt: skip
+    passages = " ... ".join(f"[{h.doc_name}] {h.content[:600]}" for h in hits[:2])
+    summary = f"Relevant policy text: {passages}" if hits else "No matching SOP documents."
     return {
         "query": query,
         "results": [{"doc_name": h.doc_name, "section": h.section, "score": h.score,
