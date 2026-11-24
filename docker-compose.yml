@@ -48,6 +48,12 @@ services:
     environment: *app-env
     ports:
       - "${API_HOST_PORT:-8000}:8000"
+    volumes:
+      # reports written by `make seed` / `make eval` land in the working tree
+      - ./eval:/app/eval
+      - ./migration:/app/migration
+    extra_hosts:
+      - "host.docker.internal:host-gateway"  # reach a host LLM such as Ollama
     depends_on:
       db:
         condition: service_healthy
