@@ -166,7 +166,27 @@ docker compose exec api python -m opspilot.chat
 
 ## Data migration report (summary)
 
-<!-- MIGRATION -->
+`python migration/migrate.py` loads the 6 legacy CSV exports in one transaction and writes
+[`migration/report.md`](migration/report.md). Summary from the latest run:
+
+| Source file | Target table(s) | Rows read | Loaded | Duplicates merged | Rejected | Reconciles |
+|---|---|---:|---:|---:|---:|:---:|
+| `suppliers.csv` | suppliers | 316 | 280 | 30 | 6 | yes |
+| `customers.csv` | customers | 867 | 841 | 18 | 8 | yes |
+| `items.csv` | items | 605 | 582 | 5 | 18 | yes |
+| `inventory.csv` | inventory | 1,836 | 1,746 | 0 | 90 | yes |
+| `purchase_orders.csv` | purchase_orders + po_lines | 961 | 924 | 0 | 37 | yes |
+| `sales_orders.csv` | sales_orders + so_lines | 1,277 | 1,240 | 0 | 37 | yes |
+| **Total** | | **5,862** | **5,613** | **53** | **196** | |
+
+* **30 duplicate suppliers merged.** Matched on normalised tax ID, or on name when the tax ID
+  is missing. The survivor keeps every legacy vendor number, and 71 item preferred-supplier
+  references were re-pointed to survivors.
+* **Rejected with reasons**, never loaded with broken FKs: missing names and costs, 10 unknown
+  units of measure (`??`, `bundle`, `lot`), orphan items, suppliers and customers, negative
+  quantities, unparseable dates (`31/31/2026`).
+* **Auto-fixed and flagged**: invalid e-mails nulled, invalid credit limits set to 0 for credit
+  review, 20 missing list prices derived from cost.
 
 ---
 

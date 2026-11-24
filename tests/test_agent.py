@@ -55,6 +55,7 @@ def test_write_action_interrupts_then_resumes(agent):
     done = agent.resume(t, True)
     assert done.pending_approval is None
     assert done.answer.count("Created PO-") == len(actions)
+    assert "Skipped ITM-1598" in done.answer  # open POs already cover its shortfall
 
 
 def test_rejection_creates_nothing(agent):

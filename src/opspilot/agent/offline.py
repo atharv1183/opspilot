@@ -301,6 +301,14 @@ def compose_answer(done: list[_Done]) -> str:
     for d in done:
         parts.append(f"- {d.result.get('summary', '')}")
         sources += [s for s in d.result.get("sources", []) if s not in sources]
+    low = next((d.result for d in done if d.name == "find_low_stock_items"), None)
+    if low and any(d.name == "create_purchase_requisition" for d in done):
+        covered = [x["sku"] for x in low.get("items", []) if x["on_order"] >= x["shortfall"]]
+        if covered:
+            parts.append(
+                f"- Skipped {', '.join(covered)}: open purchase orders already cover the "
+                "shortfall (replenishment policy SOP-INV-001)."
+            )
     answer = "\n".join(parts)
     if sources:
         answer += "\n\nSources: " + ", ".join(f"[{s}]" for s in sources)

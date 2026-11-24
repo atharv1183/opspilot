@@ -154,7 +154,8 @@ def summarize(result: dict[str, Any]) -> dict[str, Any]:
     n = len(rows)
     lat = sorted(r["latency_s"] for r in rows)
     rag = [r for r in rows if "retrieval_hit3" in r]
-    hitl = [r for r in rows if "hitl_ok" in r]
+    # approval compliance is measured over queries where the agent actually attempted a PO
+    hitl = [r for r in rows if "hitl_ok" in r and "create_purchase_order" in r["called_tools"]]
     judged = [r for r in rows if r.get("judge_ok") is not None]
     return {
         "n": n,
@@ -194,7 +195,7 @@ def render(result: dict[str, Any]) -> str:
         f"| Key-fact recall | {pct(s['fact_recall'], 1)} |",
         f"| LLM-as-judge correctness | {judge_txt} |",
         f"| Retrieval hit@3 (RAG queries, n={s['n_rag']}) | **{hit3_txt}** |",
-        f"| Human-approval before write (n={s['n_hitl']}) | {hitl_txt} |",
+        f"| PO attempts paused for human approval (n={s['n_hitl']}) | {hitl_txt} |",
         f"| Latency mean / p50 / p95 | {s['lat_mean']:.2f}s / {s['lat_p50']:.2f}s / {s['lat_p95']:.2f}s |",
         f"| Errors | {s['errors']} |",
         "",
@@ -245,7 +246,19 @@ def main() -> None:
     p.add_argument("--judge", action="store_true", help="also grade with the LLM (LLM-as-judge)")
     p.add_argument("--no-write", action="store_true", help="don't update eval/results.md")
     p.add_argument("--no-reset", action="store_true", help="don't reset agent-created POs first")
+    p.add_argument(
+        "--render",
+        nargs="+",
+        metavar="RUN_JSON",
+        help="re-render results.md from saved eval/runs/*.json without re-running",
+    )
     args = p.parse_args()
+
+    if args.render:
+        for path in args.render:
+            write_results(json.loads(Path(path).read_text(encoding="utf-8")))
+        print(f"re-rendered {RESULTS_MD} from {len(args.render)} saved run(s)")
+        return
 
     result = run(args)
     s = summarize(result)
